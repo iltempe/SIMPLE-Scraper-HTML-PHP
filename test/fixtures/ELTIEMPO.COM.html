@@ -1,0 +1,2358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"><head><script src="ELTIEMPO.COM_files/callbackjsonp1391964572371.json"></script>
+	  <script async="" type="text/javascript" src="ELTIEMPO.COM_files/CookieSync.js"></script><script src="ELTIEMPO.COM_files/cx.js" async="" type="text/javascript"></script><script async="" src="ELTIEMPO.COM_files/req.js" type="text/javascript"></script><script async="" src="ELTIEMPO.COM_files/usr.js" type="text/javascript"></script><script id="navegg" type="text/javascript" src="ELTIEMPO.COM_files/tm21360.js"></script>
+	  
+	  		  
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+						<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		
+							
+		<!-- Make sure the href of the link tag points to the icon you created -->
+<meta name="application-name" content="Principales Noticias de Colombia y el Mundo - ELTIEMPO.COM">
+<meta name="msapplication-starturl" content="http://www.eltiempo.com/">
+<meta name="msapplication-navbutton-color" content="#065e9d">
+<meta name="msapplication-window" content="width=1024;height=768">
+<meta name="msapplication-tooltip" content="Principales Noticias de Colombia y el Mundo - ELTIEMPO.COM">
+
+<link rel="shortcut icon" href="http://www.eltiempo.com/favicon.ico">
+
+<script type="text/javascript">
+        var contadorFunc = 0;
+    function IEFunctionality()
+    {
+	    try{
+        if (window.external.msIsSiteMode())
+        {         
+           if(contadorFunc == 0){
+            //omniture desde el alclaje de PIN IE9
+            var s=s_gi('eltiempocom'); 
+            s.linkTrackVars='eVar33,events'; 
+            s.linkTrackEvents='event26'; 
+            s.eVar33='Tracking IE9'; 
+            s.events='event26';  
+            s.tl(this,'o','Tracking IE9'); 
+            
+            s.prop43 = "PIN IE 9";  
+		    var s_code=s.t();if(s_code)document.write(s_code);//recuest
+		   }
+		   contadorFunc++;
+            /*ATENCION OMITIR ESTA LINEA AL PONER EL SITE EN PRODUCCION*/
+            //jQuery.support.cors = true;
+            //var counter = 1;	
+		    $.ajax(
+		    {
+			    type: "GET",
+			    url: "http://www.eltiempo.com/pinie9_rss.xml",
+			    dataType: "xml",
+			    success: function(xml) 
+			    {
+                    window.external.msSiteModeClearJumpList();
+                    window.external.msSiteModeCreateJumpList('Secciones de interés');
+                    
+                    var counterItem = 0;    
+				    var str="";
+				    $(xml).find('item').each(function()
+				    {
+                        var title = $(this).find('title').text();
+                        var link = $(this).find('link').text();
+                        //adicionar icono de notificacion   /media/images/favicons/favicon_etalerta.ico
+                        //se puede cambiar el icono por el numero respectivo por ejemplo
+                        
+                        if(title != 'no hay streaming en eltiempo.com' && counterItem == 0){
+                            //window.external.msSiteModeClearIconOverlay();
+                            window.external.msSiteModeSetIconOverlay("http://www.eltiempo.com/media/images/favicons/faviconetalerta.ico");
+                            window.external.msSiteModeActivate();
+                            //window.external.msSiteModeSetIconOverlay("http://www.eltiempo.com/media/images/favicons/favicon_etalerta.ico", title);
+                        }else{
+                        //media/images/favicons/favicon_et.ico
+                            //window.external.msSiteModeSetIconOverlay("http://www.eltiempo.com/media/images/favicons/favicon_et.ico", title);
+                            if(title == 'no hay streaming en eltiempo.com' && counterItem == 0){
+                                window.external.msSiteModeClearIconOverlay();
+                            }
+                        }
+
+                        //Adicionar noticia a las 5 noticias recomendadas
+                        //se puede cambiar el icono por el numero respectivo por ejemplo
+                        if(counterItem > 0)
+                            window.external.msSiteModeAddJumpListItem(title, link, "http://www.eltiempo.com/favicon.ico");
+
+                        counterItem++;
+				    }); 
+				    window.external.msSiteModeShowJumpList();
+			    },
+                error:function(jqXHR, textStatus, errorThrown)
+                {}
+		    });
+  
+	    }
+	    }catch(e){
+            //console.log("- Error " + e)    
+        }
+    }
+   window.onload = IEFunctionality;
+   //window.setTimeout(IEFunctionality, 10000);
+   window.setInterval(IEFunctionality, 10000);
+</script>
+     
+			  
+		<title>Pico y Placa: Horarios y restricción vehicular - ELTIEMPO.COM</title>                   	<link rel="canonical" href="http://www.eltiempo.com/servicios/pico_placa/"> 
+                               
+                      
+         <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+ <meta http-equiv="Cache-Control" content="max-age=3600">
+ <meta name="generator" content="Sistema CMS, Nuevos Medios: Casa Editorial EL TIEMPO">
+ <meta name="DESCRIPTION" content="Encuentre toda la información sobre el Pico y Placa en el país. Consulte los horarios, números de placa con restricción vehicular y las últimas noticias sobre el pico y placa">
+     <meta name="keywords" content="pico y placa, horarios, restricción vehicular, particulares, servicio publico"> 
+<meta name="news_keywords" content="pico y placa, horarios, restricción vehicular, particulares, servicio publico">
+
+
+                                   
+  <link rel="alternate" type="application/rss+xml" title="- ELTIEMPO.COMPico y placa" href="">
+<meta property="og:title" content="Pico y Placa: Horarios y restricción vehicular">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.eltiempo.com/servicios/pico_placa/index.html">
+<meta property="og:description" content="Pico y Placa">
+<meta property="og:site_name" content="Pico y placa">
+<meta property="og:image" content="">
+<!--100002279652972 es el id del usuario harara-->
+<meta property="fb:admins" content="100002279652972">                                                				<link rel="stylesheet" type="text/css" href="ELTIEMPO.COM_files/main.css" media="all">
+								    	    							<link rel="stylesheet" type="text/css" href="ELTIEMPO.COM_files/servicios.css" media="all">  
+										<link rel="stylesheet" type="text/css" href="ELTIEMPO.COM_files/shadowbox.css" media="all">
+						<!--[if lte IE 7]>
+				<link rel="stylesheet" type="text/css" href="http://www.eltiempo.com/media/css/produccion/barraie6.css" media="all" />
+             	<script src="/js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+	            <script src="/js/png.js" type="text/javascript"></script> 
+			<![endif]-->
+           
+						<!--[if IE 7]>
+				<link rel="stylesheet" type="text/css" href="http://www.eltiempo.com/media/css/produccion/ie7_2.css" media="all" />
+			<![endif]-->
+			<!--[if IE 8]>
+				<link rel="stylesheet" type="text/css" href="http://www.eltiempo.com/media/css/produccion/ie8_2.css" media="all" />
+			<![endif]-->          
+			<script type="text/javascript">var  CMS_ID_PAGINA_ACTUAL=5362485;</script><script language="javascript" type="text/javascript" src="ELTIEMPO.COM_files/OBJ-JAVASCRIPTS_GENERALES-70937_CG.js">
+</script><script language="javascript" type="text/javascript" src="ELTIEMPO.COM_files/OBJ-JAVASCRIPT_CSI-71497_CG.js">
+</script><script src="ELTIEMPO.COM_files/8b9ddbb2bb504e658a5ba07ea351da80"></script><script type="text/javascript" src="ELTIEMPO.COM_files/javascript_st.js"></script>          
+          
+                             
+                    
+           
+        
+      
+
+      
+
+     
+
+ 
+
+    
+	  
+	  
+<script type="text/javascript" language="JavaScript">
+var seccion = "pico-y-placa";
+var profile = "";
+var idSitioSmart = "22171";
+var idSeccionSmart= "173164";
+var arrayPautasSmart = [9639,9344,9645,9646,9647,9648,9649,9650,9651,9652,9653,11199];
+</script>
+<script language="javascript" type="text/javascript" src="ELTIEMPO.COM_files/OBJ-JS_PUBLICIDAD_SMART-81017_CG.js">
+</script><script type="text/javascript" src="ELTIEMPO.COM_files/smartadserver.js"></script>
+                                                            	  
+	  
+	  
+    </head>
+  
+            <body data-twttr-rendered="true">   
+       
+               <!--[if lte IE 7]>
+                <div class="barra-recomendacion-ie6">
+	               <ul class="enlaces-navegadores">
+    	                                    <li class="boton-ff"><a href="http://www.mozilla-europe.org/es/firefox/" title="descarga firefox" target="_blank">firefox</a></li>
+                      <li class="boton-ie8"><a href="http://windows.microsoft.com/es-ES/internet-explorer/download-ie" target="_blank" title="descarga internet explorer">internet explorer</a></li>
+                      <li class="boton-gchrome"><a href="http://www.google.com/chrome" target="_blank" title="descarga google chrome">google chrome</a></li>
+                   </ul>
+                </div>
+           <![endif]-->
+        <script type="text/javascript" src="ELTIEMPO.COM_files/swfstore.js"></script>
+<!-- alias seccion pico_placa --><script language="JavaScript">
+<!--  
+var s_pageName="Home - Pico y placa"
+var s_prop14;
+var loggeadin = getCookie('eltiempopuntocom');
+if(loggeadin!=null && loggeadin!="")
+{
+//s_prop14 = "SI";
+s_prop14 = loggeadin[0];
+//sexo
+s_prop15 = loggeadin[6];
+//Pais
+s_prop16 = loggeadin[7];
+//edad
+s_prop17 = loggeadin[8];
+//Profesion
+s_prop18 = loggeadin[9];
+}
+else
+{
+s_prop14 = "-";
+s_prop15 = "-";
+s_prop16 = "-";
+s_prop17 = "-";
+s_prop18 = "-";
+}
+
+
+var s_channel="Pico y placa";
+var s_hier1 = "otras secciones:servicios:pico y placa"
+var s_prop24 = "sub-section level 3:pico y placa"
+var s_prop11 = 'Normal';
+
+-->
+</script>
+
+
+<!-- SCRIPT PARA CHARTBEAT-->
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+<script type="text/javascript">
+    var _sf_async_config={};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 50648;
+    _sf_async_config.domain = 'eltiempo.com';
+    _sf_async_config.useCanonical = true;
+    _sf_async_config.sections = "Pico y placa";  //CHANGE THIS
+    _sf_async_config.authors = "";    //CHANGE THIS
+    /** CONFIGURATION END **/
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+        loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+<!-- FIN SCRIPT PARA CHARTBEAT-->
+
+<!-- SCRIPT PARA CLICKTALE-->
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<!-- FIN SCRIPT PARA CLICKTALE-->
+
+
+        
+<script type="text/javascript" language="javascript">
+//<![CDATA[
+var loggeadin = getCookie('eltiempopuntocom');
+if(!loggeadin)
+ loggeadin= new Array();
+ 
+var seccionEplanning = "Servicios";
+
+//]]>     	
+</script><script language="javascript" type="text/javascript" src="ELTIEMPO.COM_files/OBJ-JS_PUBLICIDAD_AJAX-75117_CG.js">
+</script>
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9601;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script><div id="sas_9601"><script async="" src="ELTIEMPO.COM_files/seccionpico-y-placa_005.js" type="text/javascript" id="sas_s9601"></script></div>
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9635;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script><div id="sas_9635"><script async="" src="ELTIEMPO.COM_files/seccionpico-y-placa.js" type="text/javascript" id="sas_s9635"></script></div><div style="height: 0px; width: 0px" id="sas_8933"><script async="" src="ELTIEMPO.COM_files/seccionpico-y-placa_003.js" type="text/javascript" id="sas_s8933"></script></div>
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9343;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script><div id="sas_9343"><script async="" src="ELTIEMPO.COM_files/seccionpico-y-placa_006.js" type="text/javascript" id="sas_s9343"></script></div>
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9861;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script><div id="sas_9861"><script async="" src="ELTIEMPO.COM_files/seccionpico-y-placa_007.js" type="text/javascript" id="sas_s9861"></script></div>                            <div class="new_push_down">
+<script type="text/javascript" language="JavaScript">
+sas_formatid=21675;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script><div id="sas_21675"><script async="" src="ELTIEMPO.COM_files/seccionpico-y-placa_002.js" type="text/javascript" id="sas_s21675"></script></div></div>
+<script type="text/javascript">
+  
+  function mostrarLoginCasper(){
+  	domain = document.domain;
+  
+  	client_id = 'eltiempo';
+  	if (domain == 'www.motor.com.co' || domain == 'motor.com.co') client_id = 'motor';
+  	if (domain == 'www.revistacredencial.com.co' || domain == 'revistacredencial.com.co') client_id = 'credencial';
+  
+  	if(document.getElementById('sb-title'))
+		document.getElementById('sb-title').style.visibility='hidden';
+	if(document.getElementById('sb-body-text'))
+		document.getElementById('sb-body-text').style.visibility='hidden';
+  	if(document.getElementById('sb-info'))
+		document.getElementById('sb-info').style.visibility='hidden';
+  	Shadowbox.open({
+	  player: 'iframe',
+	  content: 'https://seg.eltiempo.com/autenticacion/authentication/login/?response_type=code&client_id=' + client_id + '&state=1385044510',
+	  width:655,
+	  height:287,
+	  options: {
+		handleOversize: 'none',
+		onClose: function(){
+		  document.getElementById('sb-title').style.visibility='visible';
+  		  document.getElementById('sb-body-text').style.visibility='visible';
+  		  document.getElementById('sb-info').style.visibility='visible';
+		}
+	  }
+	});
+	return false;
+}	
+   
+</script>
+
+
+<!--<div class="container_logued maquillaje" id="zonadeusuario" style="display:none;"></div>-->
+<div class="container-header nuevo maquillaje " id="maincontainerheader">
+    <div id="movie_down" style="position:absolute;z-index:10006;margin-left:60px;margin-top:50px;"></div>
+    <div id="cien" style="position:absolute;z-index:9999; margin-left: 10px; margin-top: 20px;display:none;"></div>
+   
+    <script type="text/javascript">
+        var valor1cabezote = "0";
+        var valor2cabezote = "0";
+        var direccionurlcabezote=top.location.href;
+        direccionurlcabezote=direccionurlcabezote.toLowerCase();
+        if (direccionurlcabezote.indexOf("/carrusel/")==-1)
+        {
+            valor1cabezote="1";
+        }
+        valor1cabezote="1";
+        var usuariocabezote = getCookie("eltiempopuntocom");
+        if(usuariocabezote != undefined) 
+        {
+            if ((usuariocabezote[0] != "") || (usuariocabezote[10] == 1))
+            {
+                valor2cabezote = "1";
+            }
+        }
+        if ((valor1cabezote=="1") && (valor2cabezote=="1"))
+        {
+            var containerheadercabezote = document.getElementById("maincontainerheader");
+            if (containerheadercabezote != null)
+            {
+                containerheadercabezote.className = "container-header nuevo maquillaje";
+            }
+        }
+    </script>
+    
+    <div id="subcontainerheader" class="header">
+	  
+        <script>
+            if ((valor1cabezote=="1") && (valor2cabezote=="1"))
+            {
+                var containerheadercabezote = document.getElementById("subcontainerheader");
+                if (containerheadercabezote != null)
+                {
+                    containerheadercabezote.className = "header";
+                }
+            }
+        </script>
+        <div class="registro-header nuevo">
+<div class="container_logued maquillaje" id="zonadeusuario" style="display:none;"></div>
+ 
+
+
+<ul id="barra_login_estatica" class="login nuevo lista_menu">
+  <li class="suscribete nuevo"><a onclick="var s=s_gi('eltiempocom'); s.linkTrackVars='eVar41,events'; s.linkTrackEvents='event34';s.events='event34'; s.eVar41='Cabezote-Suscripciones';s.tl(this,'o','Suscripciones');" href="http://suscripciones.eltiempo.com/" target="_blank">Suscríbete</a><span class="btn_suscribete"></span></li>
+ 	<li class="vivamoset"><a href="http://www.vivamos.eltiempo.com/" target="_blank">Vivamos EL TIEMPO</a></li>
+	<li class="conectate">
+		<a href="javascript:void(0);" onclick="mostrarLoginCasper();">Conéctate</a>
+	  	<div class="clear"></div>
+	</li> 		
+	<li class="registrate"><a href="http://www.eltiempo.com/registro/basico.html">Regístrate</a></li>
+</ul>                                    
+  <script type="text/javascript">
+	function mostrarContenidoSesion() {
+    	sesion = getCookie("eltiempopuntocom");
+    	if(typeof(sesion)!="undefined" && sesion ){
+  			usuario = sesion[0];
+    		if (usuario != 'null' && usuario != null) {
+        		//Para MT
+			  document.getElementById("zonadeusuario").style.display="block";
+	  			incluirObjeto("NUEVO_LOGIN_CASPER2", "", "zonadeusuario");
+			  document.getElementById("barra_login_estatica").style.display="none";
+			  
+    		}
+		  	
+		}
+	}
+	mostrarContenidoSesion();
+  </script>
+</div>                                                                                        <div class="clear"></div>
+           
+    <h1 id="eltiempo2010" class="logo nuevo">
+       <span style="display: none !important">Últimas Noticias de Colombia y el Mundo - ELTIEMPO.COM</span>
+       <a id="logohome" alt="ElTiempo.com -Logo" href="http://www.eltiempo.com/"></a>
+    </h1>                            <div class="fecha-diaria nuevo">
+                                             <script type="text/javascript">
+    dia = new Date();
+    day = dia.getDate();
+    weekDay = diasSemana[dia.getDay()];
+    month = meses[dia.getMonth()];
+    year = dia.getFullYear();
+    document.write('<span>'+weekDay+'</span> '+day+' de '+month+' de '+year+'');
+ </script><span>Domingo</span> 9 de febrero de 2014                    </div>
+        <div class="clear"></div>
+                            <div id="publicidads" class="publicidad-flotante" onmouseover="document.getElementById('publicidads').style.zIndex = 1000" onmouseout="document.getElementById('publicidads').style.zIndex = 1000">
+            
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9309;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script><div id="sas_9309"><script async="" src="ELTIEMPO.COM_files/seccionpico-y-placa_008.js" type="text/javascript" id="sas_s9309"></script></div>            </div>
+             <script type="text/javascript">
+	$(document).ready(function(){
+		activarMenuPrincipal();
+	})
+</script>
+
+<div class="nav">
+	<ul class="menu Secciones" id="nav-one">
+	    	<li id="portada" class="menu-maq desplega txt1"><a href="http://www.eltiempo.com/" rel="tag"><span>Portada</span></a></li>
+	  <li id="opinion" class="menu-maq desplega txt1"><a href="http://www.eltiempo.com/opinion" rel="tag"><span>Opinión</span></a></li>
+	    	    <li class="menu-maq desplega txt2" id="politica">
+	       <a href="http://www.eltiempo.com/politica" id="menu_4" rel="tag"><span>Política</span></a>
+	    </li>
+	          	<li id="saber" class="menu-maq desplega txt2">
+		  <a href="http://www.eltiempo.com/justicia" id="justicia" rel="tag"><span>Justicia</span></a>
+	      	
+	    </li>
+
+	    <li class="menu-maq desplega txt2" id="bogota">
+		  <a href="http://www.eltiempo.com/colombia/bogota" id="redirectdh" rel="tag"><span>Bogotá</span></a>
+	       	
+	    </li>  
+
+	    <li id="deportes" class="menu-maq desplega txt4">
+		  <a href="http://www.eltiempo.com/deportes" rel="tag"><span>Deportes</span></a>
+	       	
+	    </li>
+	    
+	    <li id="entretenimiento" class="menu-maq desplega txt3">
+		  <a href="http://www.eltiempo.com/entretenimiento" rel="tag"><span>Entretenimiento</span></a>
+	       	
+	    </li>
+	  
+	    <li id="reportajes" class="menu-maq desplega txt5">
+		  <a href="http://www.eltiempo.com/reportajes" rel="tag"><span>Reportajes</span></a>
+	       	
+	    </li>
+	      <li id="tecnologia" class="menu-maq desplega txt5">
+		  <a href="http://www.eltiempo.com/tecnologia" rel="tag"><span>Tecnología</span></a>
+	       	
+	    </li>
+	  
+	    <li class="menu-e menu_maq desplega despliega_menu132" id="clasificados">
+        	<a target="_blank" href="http://clasificados.eltiempo.com/" id="menu_5"><span>Clasificados</span></a>
+		          </li>
+    	<li class="menu-maq desplega txt1 select" id="listadesecciones" onclick="mostrarOcultarSecciones()">
+		  <a><span>Secciones</span></a>
+		  <ul class="subMenuSecciones">
+                                                <li><a rel="tag" href="http://www.eltiempo.com/mundo">Mundo</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/colombia">Colombia</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/colombia/medellin">Medellín</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/colombia/barranquilla">Barranquilla</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/colombia/cali">Cali</a></li>
+                                                                    <li class="TagExterno" style="display: block;"><a rel="tag" href="http://www.portafolio.co/" target="_blank">Economía</a></li>
+                                    <li class="TagNoExterno" style="display: none;"><a rel="tag" href="http://www.eltiempo.com/economia">Economía</a></li>
+                                                             <li><a rel="tag" href="http://www.motor.com.co/">Motor</a></li>
+                                                                 <li><a rel="tag" href="http://www.eltiempo.com/noticias/salud">Salud</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/noticias/educacion">Educación</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/gente">Gente</a></li>
+                                                            <li><a rel="tag" href="http://www.eltiempo.com/noticias/viajar">Viajes</a></li>
+                                                                <li><a rel="tag" href="http://www.eltiempo.com/vida-de-hoy">Vida De Hoy</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/elenco">Elenco</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/noticias/revista-carrusel">Carrusel</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/lecturas-dominicales">Lecturas</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/revista-credencial">Credencial</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/reportero-ciudadano">Yo Reporto</a></li>
+                                                <li class="masSecciones"><a href="http://www.eltiempo.com/mapasitio.html">Mapa de secciones</a></li>
+            </ul>
+    	</li>
+	       </ul>
+     </div>
+
+
+<div class="nav-light Fixed">
+	<ul id="nav-one" class="menu">
+	  		<li class="logo-nav"><a rel="tag" href="http://www.eltiempo.com/">ET</a></li>
+		<li class="menu-maq desplega"><a rel="tag" href="http://www.eltiempo.com/"><span>Portada</span></a></li>
+		<li class="menu-maq desplega"><a rel="tag" href="http://www.eltiempo.com/opinion"><span>Opinión</span></a></li>
+		<li id="politica" class="menu-maq desplega">
+			<a rel="tag" id="menu_4" href="http://www.eltiempo.com/politica"><span>Política</span></a>
+		</li>
+		<li class="menu-maq desplega" id="saber">
+			<a rel="tag" id="redirect" href="http://www.eltiempo.com/justicia"><span>Justicia</span></a>
+		</li>
+		<li id="hacer" class="menu-maq desplega">
+		  <a rel="tag" id="redirectdh" href="http://www.eltiempo.com/colombia/bogota"><span>Bogotá</span></a>
+		</li>  
+		<li class="menu-maq desplega">
+			<a rel="tag" href="http://www.eltiempo.com/deportes"><span>Deportes</span></a>
+		</li>
+		<li class="menu-maq desplega">
+			<a rel="tag" href="http://www.eltiempo.com/entretenimiento"><span>Entretenimiento</span></a>
+		</li>
+		<li class="menu-maq desplega">
+			<a rel="tag" href="http://www.eltiempo.com/reportajes"><span>Reportajes</span></a>
+		</li>
+		<li class="menu-maq desplega">
+			<a rel="tag" href="http://www.eltiempo.com/tecnologia"><span>Tecnologia</span></a>
+		</li>
+		<li id="clasificados" class="menu-maq desplega">
+			<a id="menu_5" href="http://clasificados.eltiempo.com/" target="_blank"><span>Clasificados</span></a>
+		</li>
+		<li onclick="mostrarOcultarSecciones()" id="listadeseccioneslight" class="menu-maq desplega ">
+			<a><span>Secciones</span></a>
+			<ul style="display:none" class="subMenuSeccionesLight">
+			                                    <li><a rel="tag" href="http://www.eltiempo.com/mundo">Mundo</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/colombia">Colombia</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/colombia/medellin">Medellín</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/colombia/barranquilla">Barranquilla</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/colombia/cali">Cali</a></li>
+                                                                    <li class="TagExterno" style="display: block;"><a rel="tag" href="http://www.portafolio.co/" target="_blank">Economía</a></li>
+                                    <li class="TagNoExterno" style="display: none;"><a rel="tag" href="http://www.eltiempo.com/economia">Economía</a></li>
+                                                             <li><a rel="tag" href="http://www.motor.com.co/">Motor</a></li>
+                                                                 <li><a rel="tag" href="http://www.eltiempo.com/noticias/salud">Salud</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/noticias/educacion">Educación</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/gente">Gente</a></li>
+                                                            <li><a rel="tag" href="http://www.eltiempo.com/noticias/viajar">Viajes</a></li>
+                                                                <li><a rel="tag" href="http://www.eltiempo.com/vida-de-hoy">Vida De Hoy</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/elenco">Elenco</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/noticias/revista-carrusel">Carrusel</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/lecturas-dominicales">Lecturas</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/revista-credencial">Credencial</a></li>
+                                                                    <li><a rel="tag" href="http://www.eltiempo.com/reportero-ciudadano">Yo Reporto</a></li>
+                                                <li class="masSecciones"><a href="http://www.eltiempo.com/mapasitio.html">Mapa de secciones</a></li>
+			</ul>
+		</li>
+		<li class="suscribete nuevo"><a onclick="var s=s_gi('eltiempocom'); s.linkTrackVars='eVar41,events'; s.linkTrackEvents='event34';s.events='event34'; s.eVar41='Header-Light-Suscripciones';s.tl(this,'o','Suscripciones');" href="http://suscripciones.eltiempo.com/portalsuscripciones/paginas/producto/detallePromociones.xhtml?idProducto=0000000487" target="_blank">Suscríbete</a><span class="btn_suscribete"></span></li>				       
+	</ul>
+	  	
+</div>
+
+
+<script>
+function mostrarOcultarSecciones(){
+    if($('#listadeseccioneslight').hasClass('activo')){
+        $('#listadeseccioneslight').removeClass('activo');
+	  //$('.subMenuSecciones').hide('slow');
+    }else{
+        $('#listadeseccioneslight').addClass('activo');
+	  //$('.subMenuSecciones').show('slow');
+    }
+}
+  
+  $('#listadeseccioneslight').bind('click', function(event){
+	  if(!event.preventDefault){ 
+          event.preventDefault();
+      }else{
+          event.returnValue = false;
+      }
+	  $('.subMenuSeccionesLight').animate({
+          height: "toggle"
+		
+      });
+  });
+  $(window).scroll(function() {
+		var posicion = $(window).scrollTop();
+		if(posicion >= 146){
+			//console.log('No Funciona');
+			$('.Fixed').addClass('navFixed');
+		}
+			else{
+				$('.Fixed').removeClass('navFixed');
+//				console.log(posicion);
+			}
+	});
+  
+  //  	$(document).ready(function(){
+  //activarMenuPrincipal();
+  //})
+
+</script>   
+<style>
+.despliega_menu132:hover div.desplegable{
+    display: block;
+}
+</style>
+<script>
+function mostrarOcultarSecciones(){
+    if($('#listadesecciones').hasClass('activo')){
+        $('#listadesecciones').removeClass('activo');
+	  //$('.subMenuSecciones').hide('slow');
+    }else{
+        $('#listadesecciones').addClass('activo');
+	  //$('.subMenuSecciones').show('slow');
+    }
+}
+  
+  $('#listadesecciones').bind('click', function(event){
+	  if(!event.preventDefault){ 
+          event.preventDefault();
+      }else{
+          event.returnValue = false;
+      }
+	  $('.subMenuSecciones').animate({
+          height: "toggle"
+		
+      });
+  });
+</script>
+                                                                        
+                                                                        
+        
+
+
+<div class="menuSecciones temas-dia">
+  <ul>
+	<li>
+<ul class="temas" id="titulotemasdeldia">
+    <li class="titulo"><a href="http://www.eltiempo.com/noticias" id="atemasdia">Temas del día</a></li>
+    <li><a href="http://www.eltiempo.com/noticias/procuraduria">Procuraduría</a></li>
+    <li><a href="http://www.eltiempo.com/noticias/destitucion-de-gustavo-petro">Destitución de Gustavo Petro</a></li>
+    <li><a href="http://www.eltiempo.com/elecciones-2011/tema/revocatoria-de-gustavo-petro">revocatoria de Gustavo Petro</a></li>
+    <li><a href="http://www.eltiempo.com/noticias/ciencia">Ciencia</a></li>
+    <li><a href="http://www.eltiempo.com/noticias/manuel-elkin-patarroyo">Manuel Elkin Patarroyo</a></li>
+    <li><a href="http://www.eltiempo.com/noticias/salud-hernandez-mora">Salud Hernández Mora</a></li>
+</ul>
+	</li>
+	<li>
+  <div class="busquedas nuevo maq_2012">
+<form id="archivo-form-buscador" name="buscador" method="get" class="buscador" action="/archivo/buscar">
+	<label for="archivo-form-buscador-q noticia" class="display-none">Buscador Noticias</label>
+	<input id="archivo-form-buscador-q" class="buscador-noticia" name="q" onclick="limpiarCampo_1()" value="Buscador Noticias" type="text">
+	<input title="Buscar" id="buscadorgeneral" onclick="return buscarEnArchivo_1();" alt="Buscar" class="boton-buscador" value="" type="submit">
+	</form>
+</div>
+<script src="ELTIEMPO.COM_files/jquery-ui-1.js"></script>
+</li></ul>
+    <ul class="redes-sociales nuevo">
+	
+        <li class="clasemouseenter" id="climaCiudad">
+			<a class="ico-clima" title="Clima" href="javascript:void(0)">Clima</a>
+			<div class="clear"></div>
+			<div class="desplegable_redes clima" id="climaCiudad1" style="display: none;"> <p class="texto_hoy">Clima para hoy</p>
+<span class="logo_canalclima"></span>
+<div class="barra_clima">
+   <p>Bogotá</p>
+   <div class="dropdown_services_nh">
+      Escoja otra ciudad
+      <form class="services_form">
+         <select onchange="ponerCookieCiudad(this.value)">
+            <option selected="selected" value="1">Escoja otra ciudad</option>
+                     <option value="barranquilla">Barranquilla</option>
+                     <option value="cali">Cali</option>
+                     <option value="bogota">Bogotá</option>
+                     <option value="medellin">Medellín</option>
+                  </select>
+      </form>
+   </div>
+</div>
+<div class="tit_cclima">
+   <p>Estado actual</p>
+   <p>Temp. actual</p>
+   <p>Prob. de lluvia</p>
+</div>
+<div class="info_servicios_nh">
+      <img alt="Algunas nubes" src="ELTIEMPO.COM_files/2.png" height="80px" width="80px">
+   <span>19°</span>
+   <span>75%</span>
+   <a href="http://www.eltiempo.com/servicios/clima/">Ver más información &gt; </a>
+</div>
+<div class="pronostico_m">
+   <ul>
+      <li class="tit_pronostico">Pronóstico <br> para mañana</li>
+      <li><img alt="Nubes y sol, unos pocos chubascos breves" src="ELTIEMPO.COM_files/6.png" height="35px" width="35px"></li>
+      <li class="pronostico_txt"><span>Max</span> 20°</li>
+      <li class="pronostico_txt"><span>Min</span> 8°</li>
+   </ul>
+</div>    </div>
+			<script type="text/javascript">
+			   ciudad = getCookie('eltiempociudad');
+			   if(!ciudad){
+			      ciudad = 'bogota';
+			   }
+			   if(ciudad!='bogota' && ciudad!='barranquilla' && ciudad!='cali' && ciudad!='medellin'){
+                  ciudad = 'bogota';
+               }
+			   $('#climaCiudad1').load('/servicios/clima/clima-'+ciudad+'.html');
+			   
+			   //probar en caliente
+			  // if(ciudad=='bogota'){
+			      //bogota
+			    //  $('#climaCiudad1').load('http://'.$IP_CMS.'/interfaz/paginas/ver_pagina.php?id_pagina=6578905');
+			   //}else  
+			   // if(ciudad=='barranquilla'){
+			      	//bquilla
+			     //   $('#climaCiudad1').load('http://'.$IP_CMS.'/interfaz/paginas/ver_pagina.php?id_pagina=6605065');
+			    //}else
+			     //if(ciudad=='cali'){
+			        //cali
+			       // $('#climaCiudad1').load('http://'.$IP_CMS.'/interfaz/paginas/ver_pagina.php?id_pagina=6605067');
+			     //}else
+			     // if(ciudad=='medellin'){
+			         //medellin
+			       //  $('#climaCiudad1').load('http://'.$IP_CMS.'/interfaz/paginas/ver_pagina.php?id_pagina=6600305');
+			      //}
+			      
+			</script>
+		</li>
+	  
+	        	<li class="clasemouseenter" id="pypCiudad">
+			<a class="ico-pyp nuevo" title="Pico y placa" href="javascript:void(0)">Pico y placa</a>
+			<div class="clear"></div>
+			<div class="desplegable_redes pyp modpyp" id="pypCiudad1" style="display: none;"> 
+	<p>Pico y placa para hoy</p>
+	<div class="barra_pyp">
+		<p id="nombreCiudad">Bogotá</p>
+		<div class="dropdown_services_nh pyp">
+			Escoja otra ciudad
+			<form class="services_form" name="formciudades">
+				<select id="MySelect" name="listaciudades" onchange="ponerCookieCiudad(this.value)" class="services_form">
+				<option selected="selected" value="1">Escoja otra ciudad</option>
+								      <option value="bogota">Bogotá</option>		      
+								      <option value="bucaramanga">Bucaramanga</option>		      
+								      <option value="cartagena">Cartagena</option>		      
+								      <option value="manizales">Manizales</option>		      
+								      <option value="pereira">Pereira</option>		      
+								      <option value="barranquilla">Barranquilla</option>		      
+								      <option value="armenia">Armenia</option>		      
+								      <option value="cali">Cali</option>		      
+								      <option value="medellin">Medellín</option>		      
+												</select>
+			</form>
+		</div>
+	</div>
+	<div class="modpyp-body">
+		<div class="placas_nh noaplica" id="pyp0">
+	   <p class="NoAplica">No Aplica</p>	</div>
+	<div class="info_servicios_nh">
+       <p>Particulares</p>
+           </div>
+		<div class="verdetalles_pyp">
+    	<a href="http://www.eltiempo.com/servicios/pico_placa/" target="_blank">Ver detalles &gt;</a>
+    </div>			  
+</div>	
+			  <div class="modpyp-bottom"></div>
+                                                    </div>
+			<script type="text/javascript">
+			   ciudad = getCookie('eltiempociudad');
+			   
+			   if(!ciudad){
+			      ciudad = 'bogota';
+			   }
+			   			   
+			   $('#pypCiudad1').load('/servicios/pico_placa/'+ciudad+'.html');
+			   //$('#pypCiudad1').load('http://'.$IP_CMS.'/interfaz/paginas/ver_pagina.php?id_pagina=6506451');
+			</script>
+		</li>
+	  
+	    <li class="redes_nh clasemouseenter" id="qbc_header">
+		   <a class="ico-qbc nuevo" title="Que buena compra" href="http://www.quebuenacompra.com/" target="_blank">Que buena compra</a>
+		   <div class="clear"></div>
+		   <a class="linkQbc" href="http://www.quebuenacompra.com/" target="_blank" id="qbc_header1" style="display:none">
+		      <div class="desplegable_redes qbc" id="">
+                 <img src="ELTIEMPO.COM_files/qbc_logo.png">
+                 <p>Las mejores ofertas diarias.</p>
+                 <span>A un solo clic.</span>
+		      </div>
+		   </a>
+		</li>
+	  
+                <li id="facebook_header" class="redes_nh clasemouseenter">
+            <a class="ico-fb nuevo" title="Facebook" alt="FacebookElTiempo.com" href="javascript:void(0)">Facebook</a>
+            <div class="clear"></div>
+			<div class="desplegable_redes fb" id="facebook_header1" style="display: none;">
+				<iframe src="ELTIEMPO.COM_files/like.html" style="border:none; overflow:hidden; width:300px; height:80px;" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+			</div>
+        </li>
+        <li id="twitter_header" class="redes_nh clasemouseenter">
+            <a class="ico-twitter nuevo" title="Twitter" alt="Twitter: @ELTIEMPO" href="javascript:void(0)">Twitter</a>
+            <div class="clear"></div>
+			<div class="desplegable_redes" id="twitter_header1" style="display: none">
+				<iframe style="width: 222px; height: 20px;" data-twttr-rendered="true" title="Twitter Follow Button" class="twitter-follow-button twitter-follow-button" src="ELTIEMPO.COM_files/follow_button.html" allowtransparency="true" id="twitter-widget-0" frameborder="0" scrolling="no"></iframe>
+			    <script src="ELTIEMPO.COM_files/widgets.js" type="text/javascript"></script>
+			</div>
+			
+        </li>
+	  	<li class="redes_nh clasemouseenter">
+			<a class="ico-goplus nuevo" target="_blank" href="https://plus.google.com/104649559432974914258" rel="publisher">Google+</a>
+	  	</li>
+    </ul>
+</div>
+<script type="text/javascript">
+  //$(document).ready(function(data){
+   $('.clasemouseenter').mouseenter(function(data){
+      $('#'+this.id+'1').show();
+   }).mouseleave(function(data){
+         var rel = data.relatedTarget;
+         var cur = data.currentTarget;
+         if(rel.tagName){
+            $('#'+this.id+'1').hide();
+         }
+   });        
+  //});
+</script>
+<script>
+function ponerCookieCiudad(aliasciudad){
+   if(aliasciudad==1){
+      return;
+   }
+//alert('http://www.eltiempo.com/servicios/pico_placa/'+aliasciudad+'.html');
+   //document.getElementById('nombreCiudad').innerHTML = nombreciudad;
+   //for(var a=0; a < ; a++){
+     // document.getElementById('pyp'+a).style.display='none';
+   //}
+   //document.getElementById('pyp'+id).style.display='block';
+   
+   
+      
+   $('#pypCiudad1').load('/servicios/pico_placa/'+aliasciudad+'.html');
+   if(aliasciudad!='bogota' && aliasciudad!='barranquilla' && aliasciudad!='cali' && aliasciudad!='medellin'){
+      aliasciudadclima = 'bogota';
+   }else{
+      aliasciudadclima = aliasciudad;
+   }
+   
+   //probar en caliente
+	//		   if(aliasciudad=='bogota'){
+			      //bogota
+		//	      $('#climaCiudad1').load('http://'.$IP_CMS.'/interfaz/paginas/ver_pagina.php?id_pagina=6578905');
+			//   }else  
+			//    if(aliasciudad=='barranquilla'){
+			       //bquilla
+ 		     //      $('#climaCiudad1').load('http://'.$IP_CMS.'/interfaz/paginas/ver_pagina.php?id_pagina=6605065');
+			 //   }else
+			  //   if(aliasciudad=='cali'){
+			        //cali
+			  //      $('#climaCiudad1').load('http://'.$IP_CMS.'/interfaz/paginas/ver_pagina.php?id_pagina=6605067');
+			  //   }else
+			  //    if(aliasciudad=='medellin'){
+			         //medellin
+			  //       $('#climaCiudad1').load('http://'.$IP_CMS.'/interfaz/paginas/ver_pagina.php?id_pagina=6600305');
+			   //   }
+   
+   $('#climaCiudad1').load('/servicios/clima/clima-'+aliasciudadclima+'.html');
+   setCookie('eltiempociudad',aliasciudad,1391964365,'/','');
+   //var ciudadCookie = getCookie('eltiempociudad');
+   //alert(ciudadCookie);
+}
+
+function setCookie(name, value, tiempo, path, dominio, secure)
+         {
+         var fecha = new Date();
+         var tiempo = new Date(tiempo);
+         //If name is the empty string, it places a ; at the beginning
+         //of document.cookie, causing clearCookies() to malfunction.
+         //alert(tiempo.toGMTString());
+         
+         //expires="+expires.toGMTString();
+         var validezCookie=7;	// Cookies con 7 días de vida
+         var caducaCookie=new Date(); 
+		 caducaCookie.setTime(caducaCookie.getTime()+(validezCookie*24*60*60*1000));
+         
+         if(name != '')
+            document.cookie = name + '=' + escape(value) 
+            + (caducaCookie?'; EXPIRE='+caducaCookie.toGMTString():'EXPIRE=1') 
+            + (path?'; PATH='+path:'') 
+            + (dominio?'; DOMAIN='+dominio:'') 
+            + (secure?'; SECURE':'');;
+         }
+
+function getCookie1(name)
+         {
+         //Without this, it will return the first value 
+         //in document.cookie when name is the empty string.
+         if(name == '')
+            return('');
+         
+         name_index = document.cookie.indexOf(name + '=');
+         
+         if(name_index == -1)
+            return('');
+         
+         cookie_value =  document.cookie.substr(name_index + name.length + 1, 
+                                                document.cookie.length);
+         
+         //All cookie name-value pairs end with a semi-colon, except the last one.
+         end_of_cookie = cookie_value.indexOf(';');
+         if(end_of_cookie != -1)
+            cookie_value = cookie_value.substr(0, end_of_cookie);
+
+         //Restores all the blank spaces.
+         space = cookie_value.indexOf('+');
+         while(space != -1)
+              { 
+              cookie_value = cookie_value.substr(0, space) + ' ' + 
+              cookie_value.substr(space + 1, cookie_value.length);
+							 
+              space = cookie_value.indexOf('+');
+              }
+
+         return(cookie_value);
+         }
+
+function clearCookie(name)
+         {                  
+         expires = new Date();
+         expires.setYear(expires.getYear() - 1);
+
+         document.cookie = name + '=null' + '; expires=' + expires; 		 
+         }
+         
+function clearCookies()
+         {
+         Cookies = document.cookie;
+         Cookie = Cookies;
+         expires = new Date();
+         expires.setYear(expires.getYear() - 1);
+
+         while(Cookie.length > 0)
+              {
+              //All cookie name-value pairs end with a semi-colon, except the last one.
+              Cookie = Cookies.substr(0, Cookies.indexOf(';'));
+              Cookies = Cookies.substr(Cookies.indexOf(';') + 1, Cookies.length);
+
+              if(Cookie != '')
+                 document.cookie = Cookie + '; expires=' + expires;
+              else
+                 document.cookie = Cookies + '; expires=' + expires;			  			  	  
+              }		 		 
+         }
+
+</script>
+	  
+                                         <script>
+        $('#archivo-form-buscador-q').val('Buscador Noticias');
+        </script>
+    </div>
+</div>
+<div id="eltiempo_sesion" style="display:none;"></div>                                            <div class="container">
+  
+  <div class="container-content">
+  <div class="pauta-fija-home">
+          
+<script type="text/javascript" language="JavaScript">
+sas_formatid=8941;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script><div id="sas_8941"><script async="" src="ELTIEMPO.COM_files/seccionpico-y-placa_004.js" type="text/javascript" id="sas_s8941"></script></div>	
+  </div>
+
+ <div class="container">
+		<div class="container-content">
+            <div class="content">
+            	<div class="nivel despliegue1">
+            		<div class="bloque a">
+            			<ul class="breadcrumb">
+							<li><a class="tag3" title="" href="#">dl</a></li>
+							<li><a title="" href="#">Servicios</a></li>
+							<li><a class="activo" title="" href="#">Pico y placa</a></li>
+            			</ul>
+            			<div class="modulo titular">
+            				<h2>Pico y placa</h2>
+            				<div class="clear"></div>
+            			</div>
+            			<div class="seleccioneciudad">
+	<ul>
+	<li><a onclick="javascript:cambiarPicoyPlaca(0,9)" class="current  menuciu-a" id="id_pyp0"> <span>Bogotá</span></a></li><li><a onclick="javascript:cambiarPicoyPlaca(1,9)" class="" id="id_pyp1"><span>Pereira</span></a></li><li><a onclick="javascript:cambiarPicoyPlaca(2,9)" class="" id="id_pyp2"><span>Manizales</span></a></li><li><a onclick="javascript:cambiarPicoyPlaca(3,9)" class="" id="id_pyp3"><span>Cartagena</span></a></li><li><a onclick="javascript:cambiarPicoyPlaca(4,9)" class="" id="id_pyp4"><span>Bucaramanga</span></a></li><li><a onclick="javascript:cambiarPicoyPlaca(5,9)" class="" id="id_pyp5"><span>Barranquilla</span></a></li><li><a onclick="javascript:cambiarPicoyPlaca(6,9)" class="" id="id_pyp6"><span>Cali</span></a></li><li><a onclick="javascript:cambiarPicoyPlaca(7,9)" class="" id="id_pyp7"><span>Medellín</span></a></li><li><a onclick="javascript:cambiarPicoyPlaca(8,9)" class="" id="id_pyp8"><span>Armenia</span></a></li>    </ul>
+	<div class="clear"></div>
+</div>
+
+
+<script type="text/javascript">
+function cambiarPicoyPlaca(ciudad,total)
+{
+	for(var i=0; i<total ;i++)
+	{
+		document.getElementById(i).style.display='none';
+		$('#id_pyp'+i).removeClass("current menuciu-a");
+	}
+	document.getElementById(ciudad).style.display='block';
+	$('#id_pyp'+ciudad).addClass("current menuciu-a");
+}
+</script>
+
+	<div class="container-pyp" id="0" style="display:block;">  
+<ul class="contentpypcolumnas">
+  <li>
+	  <div class="columnapyp pyp-particular">
+		<h4>Vehiculos particulares</h4>
+					<p>6:00 am a 8:30 am</p>
+			<p>3:00 pm a 7:30 pm</p>
+				<hr>
+		<div class="placas_nh modpyp">
+		  <div class="placas_nhtipo">Placas terminadas en:</div>
+		  <p>No Aplica</p>		</div>
+	  </div>
+	  
+	  <div class="infografiapyp">
+		<a target="_blank" href="http://www.eltiempo.com/Multimedia/infografia/picoyplaca/"></a>
+		<h3> Zona de Restricción</h3>
+		<h4>
+		  <a target="_blank" href="http://www.eltiempo.com/Multimedia/infografia/picoyplaca/">Ver infografia</a>
+		</h4>
+	  </div>
+	  
+  </li>
+                
+  <li>
+	
+	<div class="columnapyp pyp-taxis">
+	  <h4>Taxis</h4>
+	  	  	<p>5:30 am a 9:00 pm</p>
+	  	  	<hr>
+	  	<div class="placas_nh modpyp pyp_taxi">
+		  <div class="placas_nhtipo">Placas terminadas en:</div>
+		  <div>
+	  	<p>No Aplica</p>	  		</div>
+		</div>
+	</div>
+  </li>
+  
+</ul>
+
+<div class="diasrestriccionpyp">
+  <ul class="restricion-pyp">
+	<li class="activopyp">
+	  <a>
+		Dias de restricción para placas IMPARES
+	  </a>
+	</li>
+	<li>
+	  <a>
+		Dias de restricción para placas PARES
+	  </a></li>
+  </ul>
+ 
+  <ul class="mespyp">
+	 
+				<li id="mes_0" class=""><a onclick="cambiarMesPicoyPlaca(0,12);mostrarCalendario(0, 2014);" href="javascript:void(0);">Enero 2014</a></li>
+			 
+				<li id="mes_1" class="currentmespyp"><a onclick="cambiarMesPicoyPlaca(1,12);mostrarCalendario(1, 2014);" href="javascript:void(0);">Febrero 2014</a></li>
+			 
+				<li id="mes_2" class=""><a onclick="cambiarMesPicoyPlaca(2,12);mostrarCalendario(2, 2014);" href="javascript:void(0);">Marzo 2014</a></li>
+			 
+				<li id="mes_3" class=""><a onclick="cambiarMesPicoyPlaca(3,12);mostrarCalendario(3, 2014);" href="javascript:void(0);">Abril 2014</a></li>
+			 
+				<li id="mes_4" class=""><a onclick="cambiarMesPicoyPlaca(4,12);mostrarCalendario(4, 2014);" href="javascript:void(0);">Mayo 2014</a></li>
+			 
+				<li id="mes_5" class=""><a onclick="cambiarMesPicoyPlaca(5,12);mostrarCalendario(5, 2014);" href="javascript:void(0);">Junio 2014</a></li>
+			 
+				<li id="mes_6" class=""><a onclick="cambiarMesPicoyPlaca(6,12);mostrarCalendario(6, 2014);" href="javascript:void(0);">Julio 2014</a></li>
+			 
+				<li id="mes_7" class=""><a onclick="cambiarMesPicoyPlaca(7,12);mostrarCalendario(7, 2014);" href="javascript:void(0);">Agosto 2014</a></li>
+			 
+				<li id="mes_8" class=""><a onclick="cambiarMesPicoyPlaca(8,12);mostrarCalendario(8, 2014);" href="javascript:void(0);">Septiembre 2014</a></li>
+			 
+				<li id="mes_9" class=""><a onclick="cambiarMesPicoyPlaca(9,12);mostrarCalendario(9, 2014);" href="javascript:void(0);">Octubre 2014</a></li>
+			 
+				<li id="mes_10" class=""><a onclick="cambiarMesPicoyPlaca(10,12);mostrarCalendario(10, 2014);" href="javascript:void(0);">Noviembre 2014</a></li>
+			 
+				<li id="mes_11" class=""><a onclick="cambiarMesPicoyPlaca(11,12);mostrarCalendario(11, 2014);" href="javascript:void(0);">Diciembre 2014</a></li>
+			  </ul>
+  
+	<!-- dias-->
+<script>
+  function cambiarMesPicoyPlaca(mes,total)
+{
+	for(var i=0; i<total ;i++)
+	{
+		$('#mes_'+i).removeClass("currentmespyp");
+	}
+	$('#mes_'+mes).addClass("currentmespyp");
+}
+</script>
+	<!-- dia/mes-->
+
+  	  
+<script>
+   
+	var fechaHoy   = new Date();
+	var mesActual = fechaHoy.getMonth();
+	var anioActual  = fechaHoy.getYear() + 1900; 
+  	var DiaActual = fechaHoy.getDate();
+    
+$(document).ready(function() {
+   mostrarCalendario(mesActual,anioActual)
+});
+
+  function mostrarCalendario(mesAct,anioAct)
+  {
+  	$("#calendar").calendarWidget({
+		month: mesAct,
+	  	month_aux : month,
+		year: anioAct						  
+ 	});
+  }  
+
+</script>
+
+<div id="calendar"><table class="tablameses" id="calendar-month1 " cellspacing="0"><thead class="cabezotetabla"><tr><th>DOMINGO</th><th>LUNES</th><th>MARTES</th><th>MIERCOLES</th><th>JUEVES</th><th>VIERNES</th><th>SABADO</th></tr></thead><tbody class="cuerpotabla"><tr><td class="mesvencidopyp">26</td><td class="mesvencidopyp">27</td><td class="mesvencidopyp">28</td><td class="mesvencidopyp">29</td><td class="mesvencidopyp">30</td><td class="mesvencidopyp">31</td><td class="pypimpares diamespyp">1</td></tr><tr><td class="diamespyp">2</td><td class="pypimpares diamespyp">3</td><td class="diamespyp">4</td><td class="pypimpares diamespyp">5</td><td class="diamespyp">6</td><td class="pypimpares diamespyp">7</td><td class="diamespyp">8</td></tr><tr><td class="diapyp-activo pypimpares diamespyp">9</td><td class="diamespyp">10</td><td class="pypimpares diamespyp">11</td><td class="diamespyp">12</td><td class="pypimpares diamespyp">13</td><td class="diamespyp">14</td><td class="pypimpares diamespyp">15</td></tr><tr><td class="diamespyp">16</td><td class="pypimpares diamespyp">17</td><td class="diamespyp">18</td><td class="pypimpares diamespyp">19</td><td class="diamespyp">20</td><td class="pypimpares diamespyp">21</td><td class="diamespyp">22</td></tr><tr><td class="pypimpares diamespyp">23</td><td class="diamespyp">24</td><td class="pypimpares diamespyp">25</td><td class="diamespyp">26</td><td class="pypimpares diamespyp">27</td><td class="diamespyp">28</td><td class="mesvencidopyp other-month"><span class="day">1</span></td></tr><tr><td class="mesvencidopyp other-month"><span class="day">2</span></td><td class="mesvencidopyp other-month"><span class="day">3</span></td><td class="mesvencidopyp other-month"><span class="day">4</span></td><td class="mesvencidopyp other-month"><span class="day">5</span></td><td class="mesvencidopyp other-month"><span class="day">6</span></td><td class="mesvencidopyp other-month"><span class="day">7</span></td><td class="mesvencidopyp other-month"><span class="day">8</span></td></tr></tbody></table></div>
+
+<script>
+
+  (function($) { 
+   
+	function calendarWidget(el, params) { 
+		
+		var now   = new Date();
+		var thismonth = now.getMonth();
+		var thisyear  = now.getYear() + 1900;
+		
+	  	
+	  	
+		var opts = {
+			month: thismonth,
+			year: thisyear
+		};
+		
+		$.extend(opts, params);
+		var monthNames = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+		var dayNames = ['DOMINGO', 'LUNES', 'MARTES', 'MIERCOLES', 'JUEVES', 'VIERNES', 'SABADO'];
+		month = i = parseInt(opts.month);
+		year = parseInt(opts.year);
+		var m = 0;
+		var table = '';
+		
+			// next month
+			if (month == 11) {
+				var next_month = '<a href="?month=' + 1 + '&year=' + (year + 1) + '" title="' + monthNames[0] + ' ' + (year + 1) + '">' + monthNames[0] + ' ' + (year + 1) + '</a>';
+			} else {
+				var next_month = '<a href="?month=' + (month + 2) + '&year=' + (year) + '" title="' + monthNames[month + 1] + ' ' + (year) + '">' + monthNames[month + 1] + ' ' + (year) + '</a>';
+			}
+				
+			// previous month
+			if (month == 0) {
+				var prev_month = '<a href="?month=' + 12 + '&year=' + (year - 1) + '" title="' + monthNames[11] + ' ' + (year - 1) + '">' + monthNames[11] + ' ' + (year - 1) + '</a>';
+			} else {
+				var prev_month = '<a href="?month=' + (month) + '&year=' + (year) + '" title="' + monthNames[month - 1] + ' ' + (year) + '">' + monthNames[month - 1] + ' ' + (year) + '</a>';
+			}		
+	  
+	  		//table += ('<h3 id="current-month">'+monthNames[month]+' '+year+'</h3>');
+			// uncomment the following lines if you'd like to display calendar month based on 'month' and 'view' paramaters from the URL
+			//table += ('<div class="nav-prev">'+ prev_month +'</div>');
+			//table += ('<div class="nav-next">'+ next_month +'</div>');
+			table += ('<table class="tablameses" ' +'id="calendar-month'+i+' " cellspacing="0">');	
+		
+			table += '<thead class="cabezotetabla">';
+			
+			for (d=0; d<7; d++) {
+				table += '<th>' + dayNames[d] + '</th>';
+			}
+			
+			table += '</thead><tbody class="cuerpotabla">';
+		
+			var days = getDaysInMonth(month,year);
+            var firstDayDate=new Date(year,month,1);
+            var firstDay=firstDayDate.getDay();
+
+	  		var prev_days = getDaysInMonth(month,year);
+            var firstDayDate=new Date(year,month,1);
+            var firstDay=firstDayDate.getDay();
+			
+			var prev_m = month == 0 ? 11 : month-1;
+			var prev_y = prev_m == 11 ? year - 1 : year;
+			var prev_days = getDaysInMonth(prev_m, prev_y);
+			firstDay = (firstDay == 0 && firstDayDate) ? 7 : firstDay;
+	
+	  var lasDayDate = new Date(year,month,prev_days);
+	  var lastDay = lasDayDate.getDay();
+	  //alert(DiaActual+' - '+mesActual);
+	  //alert(firstDay+' '+(j-firstDay+1));
+			var i = 0;
+            for (j=0;j<42;j++){
+			  /* if ((j>lastDay)){
+                table += ('<td class="mesvencidopyp">'+ (lasDayDate-lastDay+j+1) +'</td>');
+			  }
+				else */
+			  if(DiaActual == (j-firstDay+1))
+			  {
+				if(month == mesActual)
+				{
+					if(DiaActual%2 != 0)// && month == mesActual)
+					{
+						table += ('<td class="diapyp-activo pypimpares diamespyp">'+(j-firstDay+1)+'</td>');
+					}
+					else// if(month == mesActual)
+					{
+				  	table += ('<td class="diapyp-activo diamespyp">'+(j-firstDay+1)+'</td>');
+					}
+				}
+				else
+				{
+				  	if(DiaActual%2 != 0)// && month == mesActual)
+					{
+						table += ('<td class="pypimpares diamespyp">'+(j-firstDay+1)+'</td>');
+					}
+					else// if(month == mesActual)
+					{
+				  		table += ('<td class="diamespyp">'+(j-firstDay+1)+'</td>');
+					}
+				}
+			  }
+			  else if ((j<firstDay)){
+                table += ('<td class="mesvencidopyp">'+ (prev_days-firstDay+j+1) +'</td>');
+			  } else if ((j>=firstDay+getDaysInMonth(month,year))) {
+				i = i+1;
+                table += ('<td class="mesvencidopyp other-month"><span class="day">'+ i +'</span></td>');			 
+              }
+			  
+			  else if((j-firstDay+1)%2 != 0)
+			  {
+				table += ('<td class="pypimpares diamespyp">'+(j-firstDay+1)+'</td>');
+			  }
+			  
+			  else{
+                table += ('<td class="diamespyp">'+(j-firstDay+1)+'</td>');
+              }
+              if (j%7==6)  table += ('</tr>');
+            }
+
+	  		table += ('</tbody></table>');
+
+		el.html(table);
+	}
+	
+	function getDaysInMonth(month,year)  {
+		var daysInMonth=[31,28,31,30,31,30,31,31,30,31,30,31];
+		if ((month==1)&&(year%4==0)&&((year%100!=0)||(year%400==0))){
+		  return 29;
+		}else{
+		  return daysInMonth[month];
+		}
+	}
+	
+	
+	// jQuery plugin initialisation
+	$.fn.calendarWidget = function(params) {    
+	  	calendarWidget(this, params);		
+	  	return this; 
+	}; 
+
+})(jQuery);
+</script>    
+     </div>  
+<div class="clear"></div>
+            			                                                                                                <div class="clear"></div>
+</div>
+	<div class="container-pyp" id="1" style="display:none;">	<ul class="nivelpyp titulospyp">
+    	<li class="pyp-left">
+        	<span>Vigente desde</span>
+            <p></p>
+        </li>
+        <li class="pyp-particular"><h4>Vehículos particulares</h4><span>7:30 a.m- 7:30 p.m</span></li>
+        <li class="pyp-publico"><h4>Vehículos públicos</h4><span>7:00 a.m 10:00 p.m</span></li>
+        <li class="pyp-ambiental"><h4>Pico y placa Ambiental</h4><span></span></li>
+    </ul>
+  		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Lunes</p></li>
+    		
+		
+					<li class="placas"><span>0</span><span class="discbullet"></span><span>1</span></li>
+		<li class="placas">		<span class="">
+        1		</span>	
+				</li>
+		<li><span class="noaplicapyp">no aplica</span></li>    		
+		</ul>
+				<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Martes</p></li>
+    		
+		
+					<li class="placas"><span>2</span><span class="discbullet"></span><span>3</span></li>
+		<li class="placas">		<span class="">
+        2		</span>	
+				</li>
+		<li><span class="noaplicapyp">no aplica</span></li>    		
+		</ul>
+				<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Miércoles</p></li>
+    		
+		
+					<li class="placas"><span>4</span><span class="discbullet"></span><span>5</span></li>
+		<li class="placas">		<span class="">
+        3		</span>	
+				</li>
+		<li><span class="noaplicapyp">no aplica</span></li>    		
+		</ul>
+				<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Jueves</p></li>
+    		
+		
+					<li class="placas"><span>6</span><span class="discbullet"></span><span>7</span></li>
+		<li class="placas">		<span class="">
+        4		</span>	
+				</li>
+		<li><span class="noaplicapyp">no aplica</span></li>    		
+		</ul>
+				<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Viernes</p></li>
+    		
+		
+					<li class="placas"><span>8</span><span class="discbullet"></span><span>9</span></li>
+		<li class="placas">		<span class="">
+        5		</span>	
+				</li>
+		<li><span class="noaplicapyp">no aplica</span></li>    		
+		</ul>
+				<ul class="nivelpyp pypotrodia pypbgr">
+         	<li class="pyp-left pyp-dia"><span></span><p>Sábado</p></li>	
+         	<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li> 
+   		</ul>
+		
+		<ul class="nivelpyp pyphoy">
+         	<li class="pyp-left pyp-dia"><span>HOY</span><p>Domingo</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+	<div class="clear"></div>
+</div>
+	<div class="container-pyp" id="2" style="display:none;">	<ul class="nivelpyp titulospyp">
+    	<li class="pyp-left">
+        	<span>Vigente desde</span>
+            <p></p>
+        </li>
+        <li class="pyp-particular"><h4>Vehículos particulares</h4><span></span></li>
+        <li class="pyp-publico"><h4>Vehículos públicos</h4><span></span></li>
+        <li class="pyp-ambiental"><h4>Pico y placa Ambiental</h4><span></span></li>
+    </ul>
+  		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Lunes</p></li>
+    	
+					<li><span class="noaplicapyp">no aplica</span></li>
+			            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Martes</p></li>
+    	
+					<li><span class="noaplicapyp">no aplica</span></li>
+			            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Miércoles</p></li>
+    	
+					<li><span class="noaplicapyp">no aplica</span></li>
+			            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Jueves</p></li>
+    	
+					<li><span class="noaplicapyp">no aplica</span></li>
+			            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Viernes</p></li>
+    	
+					<li><span class="noaplicapyp">no aplica</span></li>
+			            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 	
+		<ul class="nivelpyp pypotrodia">
+         	<li class="pyp-left pyp-dia"><span></span><p>Sábado</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+		
+		<ul class="nivelpyp pyphoy">
+         	<li class="pyp-left pyp-dia"><span>HOY</span><p>Domingo</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+	<div class="clear"></div>
+</div>
+	<div class="container-pyp" id="3" style="display:none;">	<ul class="nivelpyp titulospyp">
+    	<li class="pyp-left">
+        	<span>Vigente desde</span>
+            <p></p>
+        </li>
+        <li class="pyp-particular"><h4>Vehículos particulares</h4><span>7:00 a.m-9:00 a.m - 12:00 a.m-2:00 p.m - 5:00 p.m-7:30 p.m</span></li>
+        <li class="pyp-publico"><h4>Vehículos públicos</h4><span></span></li>
+        <li class="pyp-ambiental"><h4>Pico y placa Ambiental</h4><span></span></li>
+    </ul>
+  		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Lunes</p></li>
+    	
+					<li class="placas"><span>7</span><span class="discbullet"></span><span>8</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Martes</p></li>
+    	
+					<li class="placas"><span>9</span><span class="discbullet"></span><span>0</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Miércoles</p></li>
+    	
+					<li class="placas"><span>1</span><span class="discbullet"></span><span>2</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Jueves</p></li>
+    	
+					<li class="placas"><span>3</span><span class="discbullet"></span><span>4</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Viernes</p></li>
+    	
+					<li class="placas"><span>5</span><span class="discbullet"></span><span>6</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 	
+		<ul class="nivelpyp pypotrodia">
+         	<li class="pyp-left pyp-dia"><span></span><p>Sábado</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+		
+		<ul class="nivelpyp pyphoy">
+         	<li class="pyp-left pyp-dia"><span>HOY</span><p>Domingo</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+	<div class="clear"></div>
+</div>
+	<div class="container-pyp" id="4" style="display:none;">	<ul class="nivelpyp titulospyp">
+    	<li class="pyp-left">
+        	<span>Vigente desde</span>
+            <p></p>
+        </li>
+        <li class="pyp-particular"><h4>Vehículos particulares</h4><span>6:00 a.m-8:00 p.m</span></li>
+        <li class="pyp-publico"><h4>Vehículos públicos</h4><span>7:00 a.m - 9:00 p.m</span></li>
+        <li class="pyp-ambiental"><h4>Pico y placa Ambiental</h4><span></span></li>
+    </ul>
+  		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Lunes</p></li>
+    	
+					<li class="placas"><span>7</span><span class="discbullet"></span><span>8</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Martes</p></li>
+    	
+					<li class="placas"><span>9</span><span class="discbullet"></span><span>0</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Miércoles</p></li>
+    	
+					<li class="placas"><span>1</span><span class="discbullet"></span><span>2</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Jueves</p></li>
+    	
+					<li class="placas"><span>3</span><span class="discbullet"></span><span>4</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Viernes</p></li>
+    	
+					<li class="placas"><span>5</span><span class="discbullet"></span><span>6</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 	
+		<ul class="nivelpyp pypotrodia">
+         	<li class="pyp-left pyp-dia"><span></span><p>Sábado</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+		
+		<ul class="nivelpyp pyphoy">
+         	<li class="pyp-left pyp-dia"><span>HOY</span><p>Domingo</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+	<div class="clear"></div>
+</div>
+	<div class="container-pyp" id="5" style="display:none;">	<ul class="nivelpyp titulospyp">
+    	<li class="pyp-left">
+        	<span>Vigente desde</span>
+            <p>4 de Marzo</p>
+        </li>
+        <li class="pyp-particular"><h4>Vehículos particulares</h4><span>6:00 a.m - 8:00 a.m - 5:00 p.m - 7:00 p.m</span></li>
+        <li class="pyp-publico"><h4>Vehículos públicos</h4><span>6:00 a.m - 9:00 p.m</span></li>
+        <li class="pyp-ambiental"><h4>Pico y placa Ambiental</h4><span></span></li>
+    </ul>
+  			<ul class="nivelpyp pypotrodia">
+    			<li class="pyp-left pyp-dia"><span></span><p>Lunes</p></li>
+							<li class="placas"><span>1</span><span class="discbullet"></span><span>2</span></li>
+    					<li class="placas">
+								<span class="">
+					5					</span>
+										<span class="discbullet"></span>
+										<span class="">
+					6					</span>
+								</li>
+						<li><span class="noaplicapyp">no aplica</span></li>
+					</ul>
+					<ul class="nivelpyp pypotrodia pypbgr">
+    			<li class="pyp-left pyp-dia"><span></span><p>Martes</p></li>
+							<li class="placas"><span>3</span><span class="discbullet"></span><span>4</span></li>
+    					<li class="placas">
+								<span class="">
+					7					</span>
+										<span class="discbullet"></span>
+										<span class="">
+					8					</span>
+								</li>
+						<li><span class="noaplicapyp">no aplica</span></li>
+					</ul>
+					<ul class="nivelpyp pypotrodia">
+    			<li class="pyp-left pyp-dia"><span></span><p>Miércoles</p></li>
+							<li class="placas"><span>5</span><span class="discbullet"></span><span>6</span></li>
+    					<li class="placas">
+								<span class="">
+					9					</span>
+										<span class="discbullet"></span>
+										<span class="">
+					0					</span>
+								</li>
+						<li><span class="noaplicapyp">no aplica</span></li>
+					</ul>
+					<ul class="nivelpyp pypotrodia pypbgr">
+    			<li class="pyp-left pyp-dia"><span></span><p>Jueves</p></li>
+							<li class="placas"><span>7</span><span class="discbullet"></span><span>8</span></li>
+    					<li class="placas">
+								<span class="">
+					1					</span>
+										<span class="discbullet"></span>
+										<span class="">
+					2					</span>
+								</li>
+						<li><span class="noaplicapyp">no aplica</span></li>
+					</ul>
+					<ul class="nivelpyp pypotrodia">
+    			<li class="pyp-left pyp-dia"><span></span><p>Viernes</p></li>
+							<li class="placas"><span>9</span><span class="discbullet"></span><span>0</span></li>
+    					<li class="placas">
+								<span class="">
+					3					</span>
+										<span class="discbullet"></span>
+										<span class="">
+					4					</span>
+								</li>
+						<li><span class="noaplicapyp">no aplica</span></li>
+					</ul>
+			
+		<ul class="nivelpyp pypotrodia">
+         	<li class="pyp-left pyp-dia"><span></span><p>Sábado</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+		
+		<ul class="nivelpyp pyphoy">
+         	<li class="pyp-left pyp-dia"><span>HOY</span><p>Domingo</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+	<div class="clear"></div>
+</div>
+	<div class="container-pyp" id="6" style="display:none;">	<ul class="nivelpyp titulospyp">
+    	<li class="pyp-left">
+        	<span>Vigente desde</span>
+            <p>5 de Enero</p>
+        </li>
+        <li class="pyp-particular"><h4>Vehículos particulares</h4><span>7:00 a.m- 10:00 a.m. - 5:00 p.m- 8:00 p.m</span></li>
+        <li class="pyp-publico"><h4>Vehículos públicos</h4><span>6:00 a.m - 12:00 a.m</span></li>
+        <li class="pyp-ambiental"><h4>Pico y placa Ambiental</h4><span></span></li>
+    </ul>
+  		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Lunes</p></li>
+    	
+					<li class="placas"><span>1</span><span class="discbullet"></span><span>2</span></li>
+					<li class="placas">
+								<span class="">
+               		7					</span>
+										<span class="discbullet"></span>
+										<span class="">
+               		8					</span>
+								</li>
+    				<li><span class="noaplicapyp">no aplica</span></li>
+				</ul>
+				<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Martes</p></li>
+    	
+					<li class="placas"><span>3</span><span class="discbullet"></span><span>4</span></li>
+					<li class="placas">
+								<span class="">
+               		9					</span>
+										<span class="discbullet"></span>
+										<span class="">
+               		0					</span>
+								</li>
+    				<li><span class="noaplicapyp">no aplica</span></li>
+				</ul>
+				<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Miércoles</p></li>
+    	
+					<li class="placas"><span>5</span><span class="discbullet"></span><span>6</span></li>
+					<li class="placas">
+								<span class="">
+               		1					</span>
+										<span class="discbullet"></span>
+										<span class="">
+               		2					</span>
+								</li>
+    				<li><span class="noaplicapyp">no aplica</span></li>
+				</ul>
+				<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Jueves</p></li>
+    	
+					<li class="placas"><span>7</span><span class="discbullet"></span><span>8</span></li>
+					<li class="placas">
+								<span class="">
+               		3					</span>
+										<span class="discbullet"></span>
+										<span class="">
+               		4					</span>
+								</li>
+    				<li><span class="noaplicapyp">no aplica</span></li>
+				</ul>
+				<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Viernes</p></li>
+    	
+					<li class="placas"><span>9</span><span class="discbullet"></span><span>0</span></li>
+					<li class="placas">
+								<span class="">
+               		5					</span>
+										<span class="discbullet"></span>
+										<span class="">
+               		6					</span>
+								</li>
+    				<li><span class="noaplicapyp">no aplica</span></li>
+				</ul>
+				<ul class="nivelpyp pypotrodia pypbgr">
+         	<li class="pyp-left pyp-dia"><span></span><p>Sábado</p></li>
+			
+         	<li><span class="noaplicapyp">no aplica</span></li>
+            <li class="placas">
+								<span class="">
+               		7					</span>
+										<span class="discbullet"></span>
+										<span class="">
+               		8					</span>
+								</li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+   
+   		</ul>
+		
+		<ul class="nivelpyp pyphoy">
+         	<li class="pyp-left pyp-dia"><span>HOY</span><p>Domingo</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li class="placas">
+								<span class="">
+               		9					</span>
+										<span class="discbullet"></span>
+										<span class="">
+               		0					</span>
+								</li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+	<div class="clear"></div>
+</div>
+	<div class="container-pyp" id="7" style="display:none;">	<ul class="nivelpyp titulospyp">
+    	<li class="pyp-left">
+        	<span>Vigente desde</span>
+            <p>1 de Febrero</p>
+        </li>
+        <li class="pyp-particular"><h4>Vehículos particulares</h4><span>7:00 a.m - 8:30 a.m. - 5:30 p.m. - 7:00 p.m.</span></li>
+        <li class="pyp-publico"><h4>Vehículos públicos</h4><span>6:00 a.m - 8:00 p.m</span></li>
+        <li class="pyp-ambiental"><h4>Pico y placa Ambiental</h4><span></span></li>
+    </ul>
+  		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Lunes</p></li>
+    	
+					<li class="placas"><span>0</span><span class="discbullet"></span><span>1</span><span class="discbullet"></span><span>2</span><span class="discbullet"></span><span>3</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Martes</p></li>
+    	
+					<li class="placas"><span>4</span><span class="discbullet"></span><span>5</span><span class="discbullet"></span><span>6</span><span class="discbullet"></span><span>7</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Miércoles</p></li>
+    	
+					<li class="placas"><span>8</span><span class="discbullet"></span><span>9</span><span class="discbullet"></span><span>0</span><span class="discbullet"></span><span>1</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia pypbgr">
+    		<li class="pyp-left pyp-dia"><span></span><p>Jueves</p></li>
+    	
+					<li class="placas"><span>2</span><span class="discbullet"></span><span>3</span><span class="discbullet"></span><span>4</span><span class="discbullet"></span><span>5</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 		<ul class="nivelpyp pypotrodia">
+    		<li class="pyp-left pyp-dia"><span></span><p>Viernes</p></li>
+    	
+					<li class="placas"><span>6</span><span class="discbullet"></span><span>7</span><span class="discbullet"></span><span>8</span><span class="discbullet"></span><span>9</span></li>
+    	            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no Aplica</span></li>
+ </ul>
+ 	
+		<ul class="nivelpyp pypotrodia">
+         	<li class="pyp-left pyp-dia"><span></span><p>Sábado</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+		
+		<ul class="nivelpyp pyphoy">
+         	<li class="pyp-left pyp-dia"><span>HOY</span><p>Domingo</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+	<div class="clear"></div>
+</div>
+	<div class="container-pyp" id="8" style="display:none;">	<ul class="nivelpyp titulospyp">
+    	<li class="pyp-left">
+        	<span>Vigente desde</span>
+            <p>1 de Enero</p>
+        </li>
+        <li class="pyp-particular"><h4>Vehículos particulares</h4><span>8:00 a.m - 8:00 p.m</span></li>
+        <li class="pyp-publico"><h4>Vehículos públicos</h4><span>8:00 a.m - 8:00 p.m</span></li>
+        <li class="pyp-ambiental"><h4>Pico y placa Ambiental</h4><span></span></li>
+    </ul>
+  			<ul class="nivelpyp pypotrodia">
+    			<li class="pyp-left pyp-dia"><span></span><p>Lunes</p></li>
+							<li class="placas"><span>1</span><span class="discbullet"></span><span>2</span></li>
+    					<li class="placas">
+								<span class="">
+					5					</span>
+										<span class="discbullet"></span>
+										<span class="">
+					6					</span>
+								</li>
+						<li><span class="noaplicapyp">no aplica</span></li>
+					</ul>
+					<ul class="nivelpyp pypotrodia pypbgr">
+    			<li class="pyp-left pyp-dia"><span></span><p>Martes</p></li>
+							<li class="placas"><span>3</span><span class="discbullet"></span><span>4</span></li>
+    					<li class="placas">
+								<span class="">
+					7					</span>
+										<span class="discbullet"></span>
+										<span class="">
+					8					</span>
+								</li>
+						<li><span class="noaplicapyp">no aplica</span></li>
+					</ul>
+					<ul class="nivelpyp pypotrodia">
+    			<li class="pyp-left pyp-dia"><span></span><p>Miércoles</p></li>
+							<li class="placas"><span>5</span><span class="discbullet"></span><span>6</span></li>
+    					<li class="placas">
+								<span class="">
+					9					</span>
+										<span class="discbullet"></span>
+										<span class="">
+					0					</span>
+								</li>
+						<li><span class="noaplicapyp">no aplica</span></li>
+					</ul>
+					<ul class="nivelpyp pypotrodia pypbgr">
+    			<li class="pyp-left pyp-dia"><span></span><p>Jueves</p></li>
+							<li class="placas"><span>7</span><span class="discbullet"></span><span>8</span></li>
+    					<li class="placas">
+								<span class="">
+					1					</span>
+										<span class="discbullet"></span>
+										<span class="">
+					2					</span>
+								</li>
+						<li><span class="noaplicapyp">no aplica</span></li>
+					</ul>
+					<ul class="nivelpyp pypotrodia">
+    			<li class="pyp-left pyp-dia"><span></span><p>Viernes</p></li>
+							<li class="placas"><span>9</span><span class="discbullet"></span><span>0</span></li>
+    					<li class="placas">
+								<span class="">
+					3					</span>
+										<span class="discbullet"></span>
+										<span class="">
+					4					</span>
+								</li>
+						<li><span class="noaplicapyp">no aplica</span></li>
+					</ul>
+			
+		<ul class="nivelpyp pypotrodia">
+         	<li class="pyp-left pyp-dia"><span></span><p>Sábado</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+		
+		<ul class="nivelpyp pyphoy">
+         	<li class="pyp-left pyp-dia"><span>HOY</span><p>Domingo</p></li>
+			<li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+            <li><span class="noaplicapyp">no aplica</span></li>
+        </ul>    
+	<div class="clear"></div>
+</div>
+                                		</div>            		
+            		<div class="bloque b">
+            			<div class="container-bloque">
+            				<div class="modulo publicidad1 banner1">
+								
+<script type="text/javascript" language="JavaScript">
+
+eplAD4M("PicoyPlaca");
+
+</script>
+
+
+
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9639;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script><div id="sas_9639"><script async="" src="ELTIEMPO.COM_files/seccionpico-y-placa_009.js" type="text/javascript" id="sas_s9639"></script><div><a target="_blank" href="http://ads.eltiempo.com/diff/484/2993993/go3.asp?2993993%3B173164%3B0%3B7645955709%3BS%3Bsystemtarget=%24qc%3d1309495477%3b%24ql%3dmedium%3b%24qpc%3d0%3b%24qpp%3d0%3b%24qt%3d13_216_17405t%3b%24b%3d12240%3b%24o%3d99999%3Btarget=seccion%3dpico-y-placa%3B9736073%3Bclickvars="><img id="img9736073" src="ELTIEMPO.COM_files/160x6000.jpg" alt="" border="0" height="600" width="160"></a>
+</div></div>						    </div><!-- fin publicidad1 -->   
+						</div>
+            		</div><!-- fin bloque b -->
+            		<div class="clear"></div>
+            	</div><!-- fin despliegue1 -->
+             </div><!-- fin content -->
+    	</div><!-- fin container-content -->
+	</div><!-- fin container -->          </div>
+
+
+<div id="lightboxIngresar" class="tween-window ingreso" style="display: none; overflow: visible; opacity: 0.9999;">
+  <div class="tween-close"><h2>Guardar artículo  <a onclick="cerrarLightbox('lightboxIngresar')"></a></h2></div>
+  <div class="label-verif" id="mal"></div>
+  <div class="tween-content" id="contenidoCamposIngresar">
+	
+	<p>Para participar en eltiempo.com usted debe estar registrado e ingresar sus datos.</p>
+    <form name="loginForm" id="loginForm" method="GET" action="http://www.eltiempo.com/registro/redir.php">
+	  <p>Si ya está registrado en eltiempo.com, ingrese aquí:</p>
+	  <div id="vLogin" class="dato"></div>
+	  <div class="dato">
+	  	<label for="usuario-login">Usuario:</label> 
+	  	<input name="login" type="text"> <span>*</span>
+	  </div>
+	  <div id="vClave" class="labelVerif"></div>
+	  <div class="dato">
+	  	<label>Contraseña:</label> 
+	  	<input name="password" onkeypress="onEnterLogin(event,this.form);" type="password"> <span>*</span>
+	  </div>
+	  <div class="clear"></div>
+	  <div class="dato dato-checkbox">
+	  	<span>
+	  		<input id="recordarcompu" value="SI" name="cookiePersistente" type="checkbox">
+	  	</span>
+	  	<label>Recordar mis datos</label>
+	  	<div class="clear"></div>	  	
+	  </div>
+	  <small>
+	  	<a href="http://www.eltiempo.com/registro/recordar.html" title="¿Olvido su clave?">¿Olvidó su clave?</a>
+	  </small>
+	  <div class="dato ingresar">
+	  	<a href="javascript:validarIngreso()">Ingresar</a>
+	  </div>
+      <input name="redireccion" value="http://www.eltiempo.com/servicios/pico_placa/" type="hidden">
+    </form>
+    <script type="text/javascript">
+              if(document.loginForm){
+	       document.loginForm.redireccion.value=document.location.href;
+       }
+    </script>
+    <div class="contentregistro">
+	<h3>¿Por qué registrarse?</h3>
+	<ul>
+	<li><span>1.</span> Ingreso de forma gratuita al archivo de El Tiempo desde 1990.</li>
+	<li><span>2.</span> Usted mismo podrá publicar fotos y videos noticiosos en eltiempo.com de manera fácil.</li>
+	<li><span>3.</span> Acceso a una amplia zona de usuario con herramientas que lo mantienen informado.</li>
+	<li><span>4.</span> Configuración de alertas para que eltiempo.com le anuncie noticias de su interés directamente a su correo electrónico.</li>
+	<li><span>5.</span> Registro al boletín de temas personalizables de eltiempo.com.</li>
+	<li><span>6.</span> Podrá incluir los titulares de eltiempo.com en su página web sin mayores trámites.</li>
+	<li><span>7.</span> Participar comentando, votando, calificando y enviando.</li>
+	</ul>
+	  <a href="http://www.eltiempo.com/registro/basico.html">Registro</a> </div>
+  <div class="clear"></div>
+  </div>
+</div>
+<div id="lightboxPaginaRespuesta" class="tween-window" style="overflow: visible; opacity: 0.9999;">
+  <div class="tween-close"><h2>Respuesta<a onclick="cerrarLightbox('lightboxPaginaRespuesta')"></a></h2></div>
+ <div class="tween-content">
+  <div class="lightbox">
+   <h2 id="tipomultimediaRespuesta"></h2>
+   <div id="contentcampos">
+	<div id="contenidoPaginaRespuesta"></div>
+   </div> 
+  </div>
+ </div>
+</div>
+<div id="lightboxOlvideClave" class="tween-window" style="overflow: visible; opacity: 0.9999;  ">
+	<div class="tween-close"><h2>Recordar clave<a onclick="cerrarLightbox('lightboxOlvideClave')"></a></h2></div>
+	<div class="tween-content">
+			<h2>Recordar clave</h2>
+			<div id="mensaje_olvide_clave"></div>
+			<div id="contentcamposOlvide">
+				<form name="formOlc" id="formOlc" class="formulario-lightbox" action="return false;">
+					<p>Por favor, escriba la dirección de correo electrónico con la cual se registró.</p>
+						<label>Su correo electrónico</label>
+						<input name="correoUsu" type="text">
+						<input name="redireccion" value="" type="hidden">
+												<div class="dato-formulario-enviar">
+							<a href="javascript:enviarOlvidoClave('formOlc');" class="vinculo-especial">Enviar</a>
+							<a href="javascript:cerrarLightbox('lightboxOlvideClave');" class="cancelar">Cancelar</a>
+						</div>
+				</form>
+			</div> 	</div></div> 
+<script type="text/javascript">
+   divs_duplicado["lightboxOlvideClave"] = document.getElementById("contentcamposOlvide").cloneNode(true);
+</script>     
+</div><!-- Cerrando div container -->
+<!--
+<div class="volverarriba">
+	<div class="volverarribaint">
+    	<a class="volver" href="#eltiempo2010">Volver arriba</a>
+    	<div class="clear"></div>
+	</div>
+</div>
+-->
+
+<div class="footer footerint maquillaje">
+			<div class="contenedor-footer-top nuevo">
+				<div class="footer-top">
+					<a class="boton-eltiempo"><img src="ELTIEMPO.COM_files/logoFooterMaquillaje.png" alt="El Tiempo Casa Editorial"></a>
+				    <div class="suscripciones_imagen"></div>
+				    <div class="footer_suscripciones">
+						<p class="suscripciones_parrafo_footer"><span>Recibe</span>
+						toda la información de Colombia y el mundo.</p>
+						<a onclick="var s=s_gi('eltiempocom'); s.linkTrackVars='eVar41,events'; s.linkTrackEvents='event34';s.events='event34'; s.eVar41='Footer-Suscripciones';s.tl(this,'o','Suscripciones');" href="http://suscripciones.eltiempo.com/" target="_blank" class="btn_suscripcionesfooter">Suscríbete</a>
+					</div>
+					<ul class="versiones-eltiempo">
+						<li class="vs-impreso">
+							<a href="http://www.eltiempo.com/tiempoimpreso/pdf/pdfs/redireccion.html" target="_blank">Impreso</a>
+						</li>
+						<li class="vs-ipad">
+							<a href="http://www.eltiempo.com/servicios/ipad/" target="_blank">Ipad</a>
+						</li>
+						<li class="vs-galaxy">
+							<a href="http://www.eltiempo.com/servicios/galaxytab/index.html" target="_blank">Galaxy</a>
+						</li>
+						<li class="vs-kindle">
+							<a href="http://www.eltiempo.com/servicios/kindle2010/index.html" target="_blank">Kindle</a>
+						</li>
+						<li class="vs-moviles">
+							<a href="http://www.eltiempo.com/servicios/movil2010/index.html" target="_blank">Móviles</a>
+						</li>
+						<li class="vs-rss">
+							<a href="http://www.eltiempo.com/servicios/rss_2010/index.html" target="_blank">RSS</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="sombra-footer"></div>
+			<div class="content-footer">
+				<div id="control-footer" class="nivel1-footer cerrado">
+					<div class="newsletter-ET">
+						<h3>Para dejar su comentario en los artículos y para recibir en su correo las noticias más importantes de <span>EL TIEMPO</span></h3>
+							<span class="ico-newsletter"></span>
+							<a class="boton-nw" href="http://www.eltiempo.com/registro/basico.html">Ingrese Aquí</a>
+							
+					</div>
+					<div class="links-footer-ET">
+						<div id="control-menu-footer-ocul" style="display:block;" class="titulos-footer-ET">
+							<h3 class="secciones-footer"><a onclick="javascript:mostrar_info_footer();" href="javascript:void(0);">Secciones <span class="ico-arrow-dw"></span></a></h3>
+							<h3 class="servicios-footer"><a onclick="javascript:mostrar_info_footer();" href="javascript:void(0);">Servicios <span class="ico-arrow-dw"></span></a></h3>
+							<h3 class="revistas-footer"><a onclick="javascript:mostrar_info_footer();" href="javascript:void(0);">Revistas <span class="ico-arrow-dw"></span></a></h3>
+							<h3 class="nuestrosPortales-footer"><a onclick="javascript:mostrar_info_footer();" href="javascript:void(0);">Nuestros Portales <span class="ico-arrow-dw"></span></a></h3>
+						</div>
+						<div id="control-menu-footer-acti" style="display:none;" class="titulos-footer-ET">
+							<h3 class="secciones-footer"><a class="activo" onclick="javascript:ocultar_info_footer();" href="javascript:void(0);">Secciones <span class="ico-arrow-dw"></span></a></h3>
+							<h3 class="servicios-footer"><a class="activo" onclick="javascript:ocultar_info_footer();" href="javascript:void(0);">Servicios <span class="ico-arrow-dw"></span></a></h3>
+							<h3 class="revistas-footer"><a class="activo" onclick="javascript:ocultar_info_footer();" href="javascript:void(0);">Revistas <span class="ico-arrow-dw"></span></a></h3>
+							<h3 class="nuestrosPortales-footer"><a class="activo" onclick="javascript:ocultar_info_footer();" href="javascript:void(0);">Nuestros Portales <span class="ico-arrow-dw"></span></a></h3>
+						</div>
+						<div id="conetido-footer" class="contenido-footer-ET">
+							<div class="secciones-footer">
+								<ul>
+																		<li><a rel="tag" href="http://www.eltiempo.com/colombia">Colombia</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/politica">Política</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/justicia">Justicia</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/mundo">Mundo</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/deportes">Deportes</a></li>
+														       	    		<li class="TagExterno" style="display: block;"><a target="_blank" rel="tag" href="http://portafolio.co/">Economía</a></li>
+     				        			<li class="TagNoExterno" style="display: none;"><a rel="tag" href="http://www.eltiempo.com/economia">Economía</a></li> 
+					        		 										<li><a rel="tag" href="http://www.eltiempo.com/opinion">Opinión</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/tecnologia">Tecnología</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/entretenimiento">Entretenimiento</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/gente">Gente</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/vida-de-hoy">Vida de hoy</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/reportero-ciudadano">Reportero ciudadano</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/elecciones-2011">Elecciones 2011</a></li>
+																			<li><a rel="tag" href="http://www.eltiempo.com/blogs">Blogs</a></li>
+																		
+								</ul>
+							</div>
+							<!-- End .secciones-footer -->
+							<div class="servicios-footer">
+								<ul>
+									
+									<li>
+						<a href="http://www.eltiempo.com/mapasitio.html">Mapa del sitio</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/ayuda/index.html">Ayuda</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/registro/basico.html">Registro</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/contacto_2010/contacto.html">Contacto</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/servicios/ipad/">iPad</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/servicios/kindle2010/index.html">Kindle</a>
+					</li>
+					<li>
+						<a href="http://suscripciones.eltiempo.com/" target="_blank">Suscripciones</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/phishing.html">Phishing</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/legal/avisolegal.html">Términos y condiciones</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/legal/aviso-de-privacidad.html">Aviso de privacidad</a>
+					</li>
+					<li>
+						<a href="http://www.media24digital.co/pauta/despliegue/idioma/es/tarifas/tabla-de-tarifas" target="_blank">Paute con nosotros</a>
+					</li>
+					<li>
+						<a href="http://clubsuscriptores.eltiempo.com/" target="_blank">Club de Beneficios Vivamos</a>
+					</li>
+					<li>
+						<a href="http://www.elempleo.com/sitios-empresariales/colombia/ceet/" target="_blank">Trabaje con nosotros</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/centrosdeventas2010/ventas.html">Centros de ventas</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/colecciones/">Colecciones El Tiempo</a>
+					</li>
+					<li>
+						<a href="http://www.eltiempo.com/elecciones-2011/publicidad_politica_pagada.html">Publicidad Política Pagada</a>
+					</li>
+									
+								</ul>
+							</div>
+							<!-- End .servicios-footer -->
+							<div class="revistas-footer">
+								<ul>
+																																																																																				        <li><a href="http://www.alo.co/">Aló Mujeres</a></li>
+					   										        
+					        <li><a href="http://www.eltiempo.com/carrusel">Revista Carrusel</a></li>
+					   										        
+					        <li><a href="http://www.eltiempo.com/elenco">Elenco</a></li>
+					   																																																																		
+						<li><a href="http://www.eltiempo.com/revista-credencial/index.html">Credencial</a></li>
+						<li><a href="http://www.eltiempo.com/lecturas-dominicales">Lecturas</a></li>
+						<li><a href="http://www.motor.com.co/">Motor</a></li>
+						
+								</ul>
+							</div>
+							<!-- End .revistas-footer -->
+							<div class="nuestrosPortales-footer">
+								<ul>
+									<li><a href="http://www.portafolio.co/" target="_blank">Noticias de Economía</a>- portafolio.co</li>
+									<li><a href="http://bogota.vive.in/bogota/" target="_blank">Guía de Bogotá</a>- vive.in</li>
+									<li><a href="http://www.elempleo.com/colombia/Homes/HomeNotLoggedIn.aspx" target="_blank">Clasificados de trabajo</a>-elempleo.com</li>
+									<li><a href="http://www.futbolred.com/" target="_blank">Todo sobre fútbol</a>- fútbolred.com</li>
+									<li><a href="http://www.citytv.com.co/programa/noticias_8pm" target="_blank">Videos de noticias</a>- citytv.com.co</li>
+									<li><a href="http://www.carroya.com/" target="_blank">Venta de carros usados</a>- carroya.com</li>
+									<li><a href="http://www.revistadonjuan.com/" target="_blank">Fotos y modelos</a>- revistadonjuan.com</li>
+									<li><a href="http://www.metrocuadrado.com/servlet/co.com.m2.servlet.MostrarHome" target="_blank">Clasificados de inmuebles</a>- metrocuadrado.com</li>
+									<li><a href="http://www.abcdelbebe.com/etapa/bebe" target="_blank">Bebés y Niños</a>- abcdelbebé.com</li>
+									<li><a href="http://www.motor.com.co/" target="_blank">Carros y Motos</a>- motor.com.co</li>
+									<li><a href="http://www.canaleltiempo.tv/" target="_blank">Canal El Tiempo</a>- canaleltiempo.tv</li>
+									<li><a href="http://www.diarioadn.co/bogota" target="_blank">Noticias de Bogotá</a>- diarioadn.co</li>
+									<li><a href="http://www.guiaacademica.com/educacion/personas/cms/colombia/index_new.aspx" target="_blank">Educación en Colombia</a>- guíaacadémica.com</li>
+									<li><a href="http://www.e-hunters.com/" target="_blank">Head hunters</a> - e-hunters.com</li>
+									<li><a href="http://www.media24digital.co/" target="_blank">Publicidad online</a>- media24digital.co</li>
+									<li><a href="http://noticias.elempleo.com/colombia" target="_blank">Noticias de trabajo</a>- noticias.elempleo.com</li>
+									<li><a href="http://www.alo.co/" target="_blank">Actualidad para Mujeres</a>- alo.co</li>
+									<li><a href="http://www.quebuenacompra.com/" target="_blank">Ofertas en Colombia</a>- quebuenacompra.com</li>
+								  	<li><a href="http://circulodelectores.com.co/" target="_blank">Venta de Libros</a>- circulodelectores.com.co</li>
+								</ul>
+							</div>
+							<!-- End .nuestrosPortales-footer -->
+						</div>
+					</div>
+				</div>
+				
+				<ul class="nivel2-footer">
+					<li class="contacto-ET">
+						<div class="contenedor-contactoET">
+							<ul>
+								<li>
+									<span>Línea nacional: </span>01 8000 110 211
+								</li>
+								<li>
+									<span>Bogotá:</span> 5714444
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<span>PBX</span> 57 (1) 2940100
+								</li>
+								<li>
+									<span>Dirección:</span> Av. Calle 26 # 68B-70
+								</li>
+							</ul>
+						</div>
+						<!--<ul>
+						<li>-->
+						<a class="correo-servicio-cliente" href="mailto:servicioalcliente@eltiempo.com">servicioalcliente@eltiempo.com</a>
+						<!--</li>
+						</ul>-->
+					</li>
+					<li class="membresias-ET">
+						<ul>
+							<li class="membresia-gda">
+								<a> <img alt="GDA" src="ELTIEMPO.COM_files/logo-membresia-gda.png"> Miembro de
+								<br>
+								Grupo de Diarios América </a>
+							</li>
+							<li class="membresia-iab">
+								<a> <img alt="AIB" src="ELTIEMPO.COM_files/logo-membresia-iab.png"> Miembro de
+								<br>
+								Interactive Advertisement Bureau </a>
+							</li>
+						  	<li class="membresia-andiarios">
+    							<a href="http://www.andiarios.com/" target="_blank"><img alt="Andiarios" src="ELTIEMPO.COM_files/logo-membresia-andiarios.png"></a>
+							</li>
+
+						</ul>
+					</li>
+				</ul><!-- fin Contacto - Membresias-->
+				<ul class="nivel3-footer">
+					<li>
+						<p>
+							COPYRIGHT © 2014 EL TIEMPO Casa Editorial. Prohibida su 
+reproducción total o parcial, así como su traducción a cualquier idioma 
+sin
+							<br>
+							autorización escrita de su titular.  ELTIEMPO.com todas las noticias principales de Colombia y el Mundo
+						</p>
+					</li>
+				</ul><!-- fin COPYRIGHT-->
+			</div>
+		</div>
+
+<script>
+	function mostrar_info_footer()
+	{		
+		$('#control-footer').removeClass('cerrado');
+		$('#control-footer').addClass('abierto');
+		document.getElementById('control-menu-footer-ocul').style.display='none';
+		document.getElementById('control-menu-footer-acti').style.display='block';
+		
+		/*
+		$("#prueba1").click(function(event){
+    		event.preventDefault();
+    		$("#conetido-footer").show("slow");
+   		});*/
+	}
+	
+	function ocultar_info_footer()
+	{		
+		$('#control-footer').removeClass('abierto');
+		$('#control-footer').addClass('cerrado');
+		document.getElementById('control-menu-footer-acti').style.display='none';
+		document.getElementById('control-menu-footer-ocul').style.display='block';
+		
+		/*
+		$("#prueba").click(function(event){
+    		event.preventDefault();
+    		$("#conetido-footer").hide("slow");
+   		});*/
+		
+	}
+	
+</script>
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+	  if( $('.TagExterno').css('display') == 'none' || $('.TagExternoArticulo').css('display') == 'none'){
+    	$.ajax({
+			type: "GET",
+			url: "http://www.eltiempo.com/tag_economia.json",
+            success: function(datos){
+            if(datos){
+            		$('.TagExterno').css('display','block'),
+            		$('.TagNoExterno').css('display','none'),
+            		$('.TagExterno a').attr({
+            			'target': '_blank'
+           			})
+           			$('.TagExternoArticulo').css('display','inline-block'),
+            		$('.TagNoExternoArticulo').css('display','none'),
+            		$('.TagExternoArticulo a').attr({
+            			'target': '_blank'
+           			});		
+           		}
+       		}
+		});
+	  }
+	  if( $('.TagExternoCine').css('display') == 'none' || $('.TagExternoArticuloCine').css('display') == 'none'){
+		$.ajax({
+			type: "GET",
+			url: "http://www.eltiempo.com/tag_cine.json",
+            success: function(datos){
+            if(datos){
+            		$('.TagExternoCine').css('display','block'),
+            		$('.TagNoExternoCine').css('display','none'),
+            		$('.TagExternoCine a').attr({
+            			'target': '_blank'
+           			})
+           			$('.TagExternoArticuloCine').css('display','inline-block'),
+            		$('.TagNoExternoArticuloCine').css('display','none'),
+            		$('.TagExternoArticuloCine a').attr({
+            			'target': '_blank'
+           			});		
+           		}
+       		}
+		});
+	  }
+    });
+</script>
+                                                                                        
+<form method="GET" name="generales" action="">
+  <input name="redireccion" value="http://www.eltiempo.com/servicios/pico_placa/index.html" type="hidden">
+  <input name="redireccionamiento" value="http://www.eltiempo.com/servicios/pico_placa/index.html" type="hidden">
+</form>       
+		<script type="text/javascript" defer="defer" language="JavaScript" src="ELTIEMPO.COM_files/s_code_remote_new.js"></script>
+	   
+    <div id="vermask" class="layerlight" style="display:none"></div>               
+    <script type="text/javascript">                 
+        var velo = document.getElementById("vermask");
+	</script>
+		      <!-- cXense script begin -->
+<div id="cX-root" style="display:none"><iframe style="display: none;" src="ELTIEMPO.COM_files/p1.html" name="cx_rep_iframe_0.2931633956397989" id="cx_rep_iframe_0.2931633956397989" frameborder="0" height="1" width="1" scrolling="no"></iframe></div>
+<script type="text/javascript">
+	nvg21360.makeCustomSegment = function (){ var res = {}; this.cokCache = {}; var nvg_parms = new Array('gender', 'age', 'education', 'interest', 'product', 'income', 'marital', 'prolook'); for (nvg_i in nvg_parms) { var nvg_tmp_arr = ''; var nvg_tmp_nme = nvg_parms[nvg_i]; var nvg_tmp = this.getSegment(nvg_parms[nvg_i]); if (nvg_tmp.search(',') != -1) { res[ nvg_tmp_nme ] = nvg_tmp.split(','); } else if (nvg_tmp.search('-') != -1) { res[ nvg_tmp_nme ] = nvg_tmp.split('-'); } else if (nvg_tmp != '') { res[ nvg_tmp_nme ] = nvg_tmp; } } return res; }
+  var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+  cX.callQueue.push(['setAccountId', '9222263900732340917']);
+  cX.callQueue.push(['setSiteId', '9222263900732340944']);
+  cX.callQueue.push(['setUserProfileParameters', nvg21360.makeCustomSegment() ]);
+  cX.callQueue.push(['sendPageViewEvent']);
+</script>
+<script type="text/javascript">
+  (function() { try { var scriptEl = document.createElement('script'); scriptEl.type = 'text/javascript'; scriptEl.async = 'async';
+  scriptEl.src = ('https:' == document.location.protocol) ? 'https://scdn.cxense.com/cx.js' : 'http://cdn.cxense.com/cx.js';
+  var targetEl = document.getElementsByTagName('script')[0]; targetEl.parentNode.insertBefore(scriptEl, targetEl); } catch (e) {};} ());
+</script>
+<!-- cXense script end -->            	    
+<!-- Google Code for Usuarios El Tiempo -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 987378831;
+var google_conversion_label = "NH1OCKHvvgoQj-no1gM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="ELTIEMPO.COM_files/conversion.js">
+</script><iframe name="google_conversion_frame" title="Google conversion frame" src="ELTIEMPO.COM_files/a.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" frameborder="0" height="13" width="300" scrolling="no">&lt;img
+ height="1" width="1" border="0" alt="" 
+src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/987378831/?frame=0&amp;random=1391964572966&amp;cv=7&amp;fst=1391964572966&amp;num=1&amp;fmt=1&amp;label=NH1OCKHvvgoQj-no1gM&amp;guid=ON&amp;u_h=768&amp;u_w=1366&amp;u_ah=744&amp;u_aw=1366&amp;u_cd=24&amp;u_his=3&amp;u_tz=-300&amp;u_java=true&amp;u_nplug=7&amp;u_nmime=121&amp;frm=0&amp;url=http%3A//www.eltiempo.com/servicios/pico_placa/&amp;ref=http%3A//www.google.com/url%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D2%26ved%3D0CC8QFjAB%26url%3Dhttp%253A%252F%252Fwww.eltiempo.com%252Fservicios%252Fpico_placa%252F%26ei%3Dk7H3UrngOLO0sQSzzYCgCw%26usg%3DAFQjCNFXBp6Q7KVDLfM7eXEIzrVnVQn42A"
+ /&gt;</iframe>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/987378831/?value=0&amp;label=NH1OCKHvvgoQj-no1gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>	
+	<!-- ClickTale Bottom part -->
+	<script type="text/javascript">
+	// The ClickTale Balkan Tracking Code may be programmatically customized using hooks:
+	// 
+	//   function ClickTalePreRecordingHook() { /* place your customized code here */  }
+	//
+	// For details about ClickTale hooks, please consult the wiki page http://wiki.clicktale.com/Article/Customizing_code_version_2
+
+	document.write(unescape("%3Cscript%20src='"+
+	(document.location.protocol=='https:'?
+	"https://clicktalecdn.sslcs.cdngc.net/www07/ptc/125e2c61-7ddd-42a1-9f8e-e234697cce18.js":
+	"http://cdn.clicktale.net/www07/ptc/125e2c61-7ddd-42a1-9f8e-e234697cce18.js")+"'%20type='text/javascript'%3E%3C/script%3E"));
+	</script><script src="ELTIEMPO.COM_files/125e2c61-7ddd-42a1-9f8e-e234697cce18.js" type="text/javascript"></script><div id="ClickTaleDiv" style="display: none;"></div><script src="ELTIEMPO.COM_files/WRe8.js" type="text/javascript"></script>
+		  <!--<script src="http://www.dataifx.co/scripts/dataifx_values_v1.js"></script>-->
+	<!-- ClickTale end of Bottom part -->
+		
+	
+         
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                            <div style="position: absolute; top: -2000px; left: -2000px; display: none;" id="SwfStore_swfstore_0"><object codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="SwfStore_swfstore_1" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="1" width="1">	<param value="http://www.eltiempo.com/media/swf/storage.swf" name="movie">	<param value="logfn=SwfStore.swfstore.log&amp;onload=SwfStore.swfstore.onload&amp;onerror=SwfStore.swfstore.onerror&amp;LSOName=swfstore" name="FlashVars">	<param value="always" name="allowScriptAccess">	<embed pluginspage="https://www.macromedia.com/go/getflashplayer" flashvars="logfn=SwfStore.swfstore.log&amp;onload=SwfStore.swfstore.onload&amp;onerror=SwfStore.swfstore.onerror&amp;LSOName=swfstore" type="application/x-shockwave-flash" allowscriptaccess="always" quality="high" loop="false" play="true" name="SwfStore_swfstore_1" bgcolor="#ffffff" src="ELTIEMPO.COM_files/storage.swf" align="middle" height="1" width="1"></object></div><div id="sb-container"><div id="sb-overlay"></div><div id="sb-wrapper"><div id="sb-title"><div id="sb-title-inner"></div><div id="sb-nav"><a id="sb-nav-close" title="Cerrar" onclick="Shadowbox.close()"></a><a id="sb-nav-next" title="Siguiente" onclick="Shadowbox.next()"></a><a id="sb-nav-play" title="Reproducir" onclick="Shadowbox.play()"></a><a id="sb-nav-pause" title="Pausa" onclick="Shadowbox.pause()"></a><a id="sb-nav-previous" title="Anterior" onclick="Shadowbox.previous()"></a></div></div><div id="sb-wrapper-inner"><div id="sb-body"><div id="sb-body-inner"></div><div id="sb-loading"><div id="sb-loading-inner"><span>cargando</span></div></div><div id="sb-body-text"></div></div></div><div id="sb-info"><div id="sb-info-inner"><div id="sb-counter"></div></div></div></div></div><iframe src="ELTIEMPO.COM_files/ooyala_storage.html" style="display: none;"></iframe><script src="ELTIEMPO.COM_files/chartbeat.js" type="text/javascript" language="javascript"></script><div style="display: none;" id="hintbox"></div></body></html>
